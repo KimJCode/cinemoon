@@ -93,7 +93,9 @@
                     font-size: 70px;
                     padding-top: 80px;}
 
-.navfooter          {color: rgb(255, 255, 255);}
+.navfooter          {color: rgb(255, 255, 255);
+                    
+                    }
 
 .navfooter td a        {
                     padding:5px;
