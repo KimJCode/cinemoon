@@ -65,12 +65,16 @@
           color: #a9b5add4;}
 
 .article h1         {font-size: 70px;
-        padding-top: 80px;}
+                    padding-top: 80px;}
 
-.navfooter          {color: rgb(255, 255, 255);}
+.navfooter          {color: rgb(255, 255, 255);
+                    padding-left:25%;
+                    padding-right:25%;
+                    }
 
 .navfooter td a        {padding:5px;
-        padding-left: 30px;
+        padding-left: 25%;
+        padding-right: 25%;
         text-decoration:none;
         margin: left 20px;
         color: beige;
