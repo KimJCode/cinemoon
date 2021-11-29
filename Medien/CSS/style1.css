@@ -53,10 +53,10 @@
                      font-weight: 100;
                      line-height: 25px;}
 
-.footer             {background-color: rgba(128, 117, 117, 0.476);
+.footer             {background-color: rgba(0, 0, 0, 0.521);
                      height: 100px;
                      width:100%;
-                     color: rgba(177, 177, 177, 0.568);
+                     color: rgba(255, 255, 255, 0.568);
                      position: absolute;
                      padding-top: 30px;}
 
