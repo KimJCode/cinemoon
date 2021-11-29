@@ -1,83 +1,111 @@
-*               {margin: 0;
-                padding: 0;
-                font-family: sans-serif;}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
-.banner         {width: 100%;
-                height: 30vh; /* vh bezieht sich auf das Aussehen des Fensters */
-                background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
-                background-size: cover;
-                background-position: center;}
+.banner {
+        width: 100%;
+        height: 30vh; /* vh bezieht sich auf das Aussehen des Fensters */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
+        background-size: cover;
+        background-position: center;
+    }
 
-.navbar         {width: 85%;
-                height: 25vh;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;}
+.navbar {
+        width: 85%;
+        height: 25vh;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.logo           {width: 300px;
-                cursor: pointer;}
+.logo {
+        width: 300px;
+        cursor: pointer;
+    }
 
-.navbar ul li   {list-style:none;
+.navbar ul li {
+                list-style:none;
                 display: inline-block;
                 margin: 0 20px;
-                position: relative;}
+                position: relative;
+        }
 
-.navbar ul li a {text-decoration: none;
+.navbar ul li a {
+                text-decoration: none;
                  color: #ffffff;
-                 text-transform: uppercase;}
+                 text-transform: uppercase;
+            }
 
-.navbar ul li ::after {content: '';
-                       height: 3px;
-                       width: 0;
-                       background: #c23329cd;
-                       position: absolute;
-                       left:0;
-                       bottom: -5px;
-                       transition: 0.5s;}
+.navbar ul li ::after {
+                        content: '';
+                        height: 3px;
+                        width: 0;
+                        background: #feffd7b6; /* Hier soll die Farbe vom Mond hin */
+                        position: absolute;
+                        left:0;
+                        bottom: -5px;
+                        transition: 0.5s;
+                }
 
-.navbar ul li :hover:after {width:100%}
+.navbar ul li :hover:after  {
+                            width:100%
+                        }
 
-.content            {width: 100%;
-                     background-color:rgb(29, 28, 28);
-                     color:white;}
+.content            {
+                    width: 100%;
+                    background-color:rgb(29, 28, 28);
+                    color:white;
+                }
 
-.content h1         {font-size: 70px;
-                     padding-top: 80px;}
+.content h1         {
+                    font-size: 70px;
+                    padding-top: 80px;
+                }
 
 
 
-.footer             {background-color: rgba(0, 0, 0, 0.521);
+.footer             {
+                    background-color: rgba(0, 0, 0, 0.521);
                      height: 50px;
                      width:100%;
                      color: rgba(255, 255, 255, 0.568);
                      position: absolute;
-                     padding-top: 30px;}
+                     padding-top: 30px;
+                     padding-left: 15vh; 
+                }
 
-.footer p           {color: rgb(155, 143, 143);}
+.footer p           {
+                    color: rgb(155, 143, 143);}
 
 .article            {
                      margin: auto 100px;}
 
-.article p           {
-                      font-size: 150%;
-                      color: #a9b5add4;}
+.article p          {
+                    font-size: 150%;
+                    color: #a9b5add4;
+                    }
 
-.article h1         {font-size: 70px;
+.article h1         {
+                    font-size: 70px;
                     padding-top: 80px;}
 
 .navfooter          {color: rgb(255, 255, 255);}
 
-.navfooter td a        {padding:5px;
+.navfooter td a        {
+                    padding:5px;
                     padding-left: 30px;
                     text-decoration:none;
-                    margin: left 20px;
+                    margin: left 40px;
                     color: beige;
                     height: 15;}
 
-.navfooter td a:hover          {color: rgb(76, 68, 68);
-                               font-weight:10px;
-                 text-shadow:black 3px 2px 4px;
-                 color: beige;
-                 cursor: pointer;}
+.navfooter td a:hover{
+                    color: rgb(76, 68, 68);
+                    font-weight:10px;
+                    text-shadow:black 3px 2px 4px;
+                    color: beige;
+                    cursor: pointer;}
