@@ -8,4 +8,3 @@ Abgabe des Prototyps am 1.12 um 23:59.
 
 Probleme:
 - Fußzeile ist nicht richtig positioniert
->>>>>>> Daniele
