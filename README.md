@@ -4,6 +4,8 @@ Willkommen bei cinemoon.
 In unserem Github finden Sie unseren umfangreichen Code!
 
 Abgabe des Prototyps am 1.12 um 23:59.
+<<<<<<< HEAD
 
 Probleme:
-- Fußzeile positioniert nicht richtig
+- Fußzeile ist nicht richtig positioniert
+>>>>>>> Daniele
