@@ -15,11 +15,21 @@ div.event1{
 div.event1 p{
     padding-top: 5%;
     padding-left: 50%;
+    margin-bottom: 50px;
 
 }
-div.event1 button{
-    margin-top: 5%;
-    margin-left: 25%;
+div.event1 a{
+    font-size: 20px;
+    margin-left: 5%;
     width: 5%;
     height: 12%;
+    color: #a9b5add4;
+    border: 2px solid grey;
+    background-color: transparent;
+    padding: 12px 20px;
+}
+
+h1{
+    margin-bottom: 10px;
+
 }
