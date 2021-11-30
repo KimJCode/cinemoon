@@ -79,11 +79,6 @@
     color: rgb(155, 143, 143);
 }
 
-.article {   
-    margin: auto;
-    max-width: 950px;
-}
-
 .article p {
     font-size: 150%;
     color: #a9b5add4;
@@ -118,73 +113,15 @@
     cursor: pointer;
 }
 
-.Programm {
-    background-color: rgba(240, 255, 255, 0.231);
-    height:400px;
-    max-width: 1000px;
-    margin-top: 30px;
+a {
+    color: #bbf0f7d4;
 }
 
-.PTable {
-    border-color: white;
-    width: 100%;
-    padding-top: 30px;
-    margin-top: 20px;
-    padding-bottom: 100px;
-    border-width: 2px;
-    border-style: solid none none none;
-    background-color: rgba(245, 245, 220, 0);
+strong {
+    color:rgba(93, 255, 255, 0.527);
 }
 
-.PTable td {
-    background-color: rgba(255, 99, 71, 0);
-    font-size: 160%;
-    padding-left: 10px;
-}
-
-.PTable td  h1 {
-    font-size: 130%;
-    padding-top: 20px;
-}
-
-.PTable td  a {
-    font-size: 100%;
-    text-decoration: none;
-    color: rgb(66, 119, 211);
-}
-
-.PTableDate td {
-    font-size:15px;
-    text-decoration: none;
-    color: rgb(66, 119, 211);
-    padding-left: 2px;
-    height:20px;
-}
-
-.PTableTime td {
-    font-size:30px;
-    text-decoration: none;
-    color: rgb(66, 119, 211);
-    background-color: rgba(223, 220, 215, 0.857);
-    border-color: transparent;
-    border-width: 5px;
-    text-align: center;
-    height: 40px;
-}
-
-.PTableTime td  a {
-    font-size: 100%;
-    text-decoration: none;
-    color: rgb(52, 121, 206);
-    cursor: pointer; 
-}
-
-.PBild {
-    box-shadow: 20px grey;
-    height: 400px;
-    width: 290px;
-}
-
-.PBild :hover {
-    opacity: 0.7;
+.article {
+    max-width: 950px;
+    margin:0 auto;
 }

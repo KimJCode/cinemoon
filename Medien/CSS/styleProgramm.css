@@ -79,11 +79,6 @@
     color: rgb(155, 143, 143);
 }
 
-.article {   
-    margin: auto;
-    max-width: 950px;
-}
-
 .article p {
     font-size: 150%;
     color: #a9b5add4;
@@ -116,6 +111,19 @@
     text-shadow:black 3px 2px 4px;
     color: beige;
     cursor: pointer;
+}
+
+a {
+    color: #bbf0f7d4;
+}
+
+strong {
+    color:rgba(93, 255, 255, 0.527);
+}
+
+.article {
+    max-width: 950px;
+    margin:0 auto;
 }
 
 .Programm {
