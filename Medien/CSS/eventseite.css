@@ -1,5 +1,7 @@
 div.event{
     display:inline-block;
+    margin-bottom: 30px;
+    font-size: 140%;
 }
 
 div.event img{
@@ -7,7 +9,10 @@ div.event img{
     height: 100%;
 
 }
-div.event h1{
+div.article h1{
+    margin-bottom: 10px;
+}
+div.event h2{
     margin-bottom: 10px;
 }
 div#womanimgcon{
@@ -34,6 +39,30 @@ div.event a#button1{
 
 div#animeimgcon{
     float:left;
-    width:30%;
-    height:30%;
+    width:45%;
+    height:45%;
+}
+div.event p#paevent2{
+    padding-top: 15%;
+    padding-left: 50%;
+    margin-bottom: 50px;
+}
+div.event a#button2{
+    font-size: 20px;
+    margin-left: 5%;
+    width: 5%;
+    height: 12%;
+    color: #a9b5add4;
+    border: 2px solid grey;
+    background-color: transparent;
+    padding: 12px 20px;
+}    
+div#ccimgcon{
+    float:left;
+    width:45%;
+    height:45%;
+}
+div.event p#paevent3{
+    padding-left: 50%;
+    margin-bottom: 50px;
 }
