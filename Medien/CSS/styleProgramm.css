@@ -196,3 +196,11 @@ strong {
 .PBild :hover {
     opacity: 0.7;
 }
+
+.PTableHead td {
+    height: 50px;
+}
+
+.PTableContet td {
+    height: 250px;
+}
