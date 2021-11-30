@@ -1,40 +1,24 @@
-.article {
-    max-width: 1200px;
-    margin: auto;
+.highlight {
+    display:inline-block;
+    margin-bottom: 30px; 
 }
 
-.article1 {
-    padding-bottom: 200px;
+div#JamesBond {
+    float:left;
+    width: 45%;
+    height: 45%;
 }
 
-.article2 {
-    padding-bottom: 200px;
-}
-
-
-.aktion {
-    margin-left: 20px;
-}
-
-a img {
-    padding-top: 25px;
-    height: 350px;
-    width: 225px;
-}
-
-div.article1 p#text {
-    float:right;
-    display:inline;
-    vertical-align: text-top;
-    color:white;
-    overflow:auto;
-    margin-bottom:20px;
-}
-
-h1 {
-    color:rgba(248, 255, 184, 0.849);
+div.highlight p#beschreibung {
+    padding-top: 5%;
+    padding-left: 50%;
+    margin-bottom: 50px;
 }
 
 strong {
     color: rgb(66, 119, 211);
+}
+
+h1 {
+    color:white;
 }
