@@ -71,17 +71,12 @@
     height: 50px;
     width:100%;
     color: rgba(255, 255, 255, 0.568);
-    position:absolute;
+    position: absolute;
     padding-top: 30px;
 }
 
 .footer p {
     color: rgb(155, 143, 143);
-}
-
-.article {   
-    margin: auto;
-    max-width: 950px;
 }
 
 .article p {
@@ -116,6 +111,19 @@
     text-shadow:black 3px 2px 4px;
     color: beige;
     cursor: pointer;
+}
+
+a {
+    color: #bbf0f7d4;
+}
+
+strong {
+    color:rgba(93, 255, 255, 0.527);
+}
+
+.article {
+    max-width: 950px;
+    margin:0 auto;
 }
 
 .Programm {
@@ -187,4 +195,12 @@
 
 .PBild :hover {
     opacity: 0.7;
+}
+
+.PTableHead td {
+    height: 50px;
+}
+
+.PTableContet td {
+    height: 250px;
 }

@@ -1,0 +1,27 @@
+h1 {
+    margin-bottom:10px;
+}
+div.Highlight1 {
+    display:inline-block;
+}
+div#Film1 {
+    float:left;
+    width: 45%;
+    height: 45%;
+    margin-bottom: auto;
+}
+div.Highlight1 a {
+    font-size:20px;
+    margin-left: 5%;
+    width: 5%;
+    height: 12%;
+    color: #a9b5add4;
+    border: 2px solid grey;
+    background-color: transparent;
+    padding: 12px 20px;
+}
+
+div.Highlight1 p {
+    
+}
+
