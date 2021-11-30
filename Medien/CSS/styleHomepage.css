@@ -3,9 +3,14 @@
     margin: auto;
 }
 
-.film {
+.article1 {
     padding-bottom: 200px;
 }
+
+.article2 {
+    padding-bottom: 200px;
+}
+
 
 .aktion {
     margin-left: 20px;
@@ -17,7 +22,7 @@ a img {
     width: 225px;
 }
 
-div.film p#text {
+div.article1 p#text {
     float:right;
     display:inline;
     vertical-align: text-top;
@@ -31,5 +36,5 @@ h1 {
 }
 
 strong {
-    color:aqua;
+    color: rgb(66, 119, 211);
 }
