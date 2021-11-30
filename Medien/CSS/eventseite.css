@@ -1,24 +1,27 @@
-div#woman{
-    float:left;
-    width:45%;
-    height:45%;
+div.event{
+    display:inline-block;
 }
 
-div.event1 img{
+div.event img{
     width: 100%;
     height: 100%;
 
 }
-div.event1{
-    display:inline-block;
+div.event h1{
+    margin-bottom: 10px;
 }
-div.event1 p{
+div#womanimgcon{
+    float:left;
+    width:45%;
+    height:45%;
+}
+div.event p#paevent1{
     padding-top: 5%;
     padding-left: 50%;
     margin-bottom: 50px;
 
 }
-div.event1 a{
+div.event a#button1{
     font-size: 20px;
     margin-left: 5%;
     width: 5%;
@@ -29,7 +32,8 @@ div.event1 a{
     padding: 12px 20px;
 }
 
-h1{
-    margin-bottom: 10px;
-
+div#animeimgcon{
+    float:left;
+    width:30%;
+    height:30%;
 }
