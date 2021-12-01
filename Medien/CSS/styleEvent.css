@@ -66,4 +66,14 @@ div.event p#paevent3{
     padding-left: 50%;
     margin-bottom: 50px;
 }
+div.event a#button3{
+    font-size: 20px;
+    margin-left: 5%;
+    width: 5%;
+    height: 12%;
+    color: #a9b5add4;
+    border: 2px solid grey;
+    background-color: transparent;
+    padding: 12px 20px;
+}  
 
