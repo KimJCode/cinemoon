@@ -7,12 +7,14 @@ div#JamesBond {
     float:left;
     width: 45%;
     height: 45%;
+    margin-bottom: 20px;
 }
 
 div.highlight p#beschreibung {
     padding-top: 5%;
-    padding-left: 50%;
-    margin-bottom: 50px;
+    padding-left: 10%;
+    border-left: 2px;
+    border-color: white; 
 }
 
 strong {
@@ -21,4 +23,16 @@ strong {
 
 h1 {
     color:white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:rgb(255, 252, 221);
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+
+a img {
+    height: 400px;
 }
