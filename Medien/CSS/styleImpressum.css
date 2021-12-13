@@ -1,0 +1,18 @@
+.content h1 { 
+    font-size: 70px;
+    padding-top: 80px;
+}
+
+.article p {
+    font-size: 150%;
+    color: #a9b5add4;
+}
+
+#Unter-Ueberschrift {
+    color:rgba(93, 255, 255, 0.527);
+}
+
+a {
+    text-decoration: none;
+    color: #bbf0f7d4;
+}
