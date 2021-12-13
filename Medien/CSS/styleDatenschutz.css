@@ -6,7 +6,7 @@
 
 .banner {
     width: 100%;
-    height: 30vh; /* vh bezieht sich auf das Aussehen des Fensters */
+    height: 250px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
     background-size: cover;
     background-position: center;
