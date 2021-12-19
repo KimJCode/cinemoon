@@ -67,14 +67,29 @@
     padding-top: 80px;
 }
 
-.footer {
+footer {
+    text-align: center;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.521);
     height: 50px;
     width:100%;
     color: rgba(255, 255, 255, 0.568);
-    position:absolute;
-    padding-top: 30px;
 }
+footer ul{
+    position: absolute;
+    width: 100%;
+    top:15px;
+    list-style-type: none;
+}
+footer li{
+    display:inline;
+    margin: 1%;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
 
 .footer p {
     color: rgb(155, 143, 143);
