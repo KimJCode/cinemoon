@@ -16,6 +16,7 @@ Probleme:
 - Navigationsbar bleibt nicht im Banner wenn man weit raus zoomt
 - Programmseite muss noch richtig gemacht werden
 - Supportseite ist noch nicht fertig
+- Gastroseite hat einen Bug
 
 Zwischenspeicher:
                 <div class = "highlight">

@@ -7,11 +7,13 @@ div#box {
      
 }
 
-.highlight {height: 250px;
-            background-color: rgba(105, 108, 108, 0.353);
-            text-align: center;   
-            padding-top: 30px; 
-        }
+.highlight {
+    height: 250px;
+    background-color: rgba(105, 108, 108, 0.353);
+    text-align: center;   
+    padding-top: 30px; 
+}
+        
 
 div.highlight p#beschreibung {
     padding-top: 5%;
@@ -22,7 +24,6 @@ div.highlight p#beschreibung {
     text-align: left; 
      
 }
-
 
 .article h2 {
     font-size: 40px;
