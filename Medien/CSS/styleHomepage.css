@@ -4,12 +4,21 @@ h1 {
 }
 
 .highlights {
-    display:inline-block;
-    width: 100%;
+    text-align: center;
+    display: inline-block;
+    width: auto;
     height: 400px;
 }
 
 .highlights a img {
     height: 400px;
     width: 250px;
+    margin: 0 20px 40px 20px;
+}
+
+.news {
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: 400px;
 }
