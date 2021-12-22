@@ -9,23 +9,28 @@ section.event img{
     height: 100%;
 
 }
+
 article h1{
     margin-bottom: 10px;
 }
+
 section.event h2{
     margin-bottom: 10px;
 }
+
 div#womanimgcon{
     float:left;
     width:45%;
     height:45%;
 }
+
 section.event p#paevent1{
     padding-top: 5%;
     padding-left: 50%;
     margin-bottom: 50px;
 
 }
+
 section.event a#button1{
     font-size: 20px;
     margin-left: 5%;
@@ -42,11 +47,13 @@ div#animeimgcon{
     width:45%;
     height:45%;
 }
+
 section.event p#paevent2{
     padding-top: 15%;
     padding-left: 50%;
     margin-bottom: 50px;
 }
+
 section.event a#button2{
     font-size: 20px;
     margin-left: 5%;
@@ -56,16 +63,19 @@ section.event a#button2{
     border: 2px solid grey;
     background-color: transparent;
     padding: 12px 20px;
-}    
+}
+
 div#ccimgcon{
     float:left;
     width:45%;
     height:45%;
 }
+
 section.event p#paevent3{
     padding-left: 50%;
     margin-bottom: 50px;
 }
+
 section.event a#button3{
     font-size: 20px;
     margin-left: 5%;
