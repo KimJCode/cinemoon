@@ -9,7 +9,6 @@ section#box {
     height: 230px;
     margin: 6px;
     background: #7e7e7d53;  
-
 }
 
 .highlight {height: 250px;
@@ -23,7 +22,6 @@ div.highlight p#beschreibung {
     font-size: 30px;
     border-color: white;
     text-align: left; 
-
 }
 
 .das-Element {
