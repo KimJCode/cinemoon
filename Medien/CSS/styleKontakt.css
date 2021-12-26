@@ -4,12 +4,20 @@
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 div#box {
+=======
+section#box {
+>>>>>>> Daniele
     width: 100%;
     height: 230px;
     margin: 6px;
     background: #7e7e7d53;  
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> Daniele
 }
 
 .highlight {height: 250px;
@@ -23,7 +31,11 @@ div.highlight p#beschreibung {
     font-size: 30px;
     border-color: white;
     text-align: left; 
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> Daniele
 }
 
 .das-Element {
@@ -56,4 +68,8 @@ div.highlight p#beschreibung {
     margin: 6px;
     width: 100%;
     background: #7e7e7d53;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> Daniele
