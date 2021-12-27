@@ -69,9 +69,11 @@ strong {
 
 .news p {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     border: solid thin rgb(52, 121, 206);;
+    padding:10px;
     margin: 0;
+    hyphens: auto;
 }
 
 .events p {
