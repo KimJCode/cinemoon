@@ -1,32 +1,37 @@
-div.event{
+section.event{
     display:inline-block;
     margin-bottom: 30px;
     font-size: 140%;
 }
 
-div.event img{
+section.event img{
     width: 100%;
     height: 100%;
 
 }
-div.article h1{
+
+article h1{
     margin-bottom: 10px;
 }
-div.event h2{
+
+section.event h2{
     margin-bottom: 10px;
 }
+
 div#womanimgcon{
     float:left;
     width:45%;
     height:45%;
 }
-div.event p#paevent1{
+
+section.event p#paevent1{
     padding-top: 5%;
     padding-left: 50%;
     margin-bottom: 50px;
 
 }
-div.event a#button1{
+
+section.event a#button1{
     font-size: 20px;
     margin-left: 5%;
     width: 5%;
@@ -42,12 +47,14 @@ div#animeimgcon{
     width:45%;
     height:45%;
 }
-div.event p#paevent2{
+
+section.event p#paevent2{
     padding-top: 15%;
     padding-left: 50%;
     margin-bottom: 50px;
 }
-div.event a#button2{
+
+section.event a#button2{
     font-size: 20px;
     margin-left: 5%;
     width: 5%;
@@ -56,17 +63,20 @@ div.event a#button2{
     border: 2px solid grey;
     background-color: transparent;
     padding: 12px 20px;
-}    
+}
+
 div#ccimgcon{
     float:left;
     width:45%;
     height:45%;
 }
-div.event p#paevent3{
+
+section.event p#paevent3{
     padding-left: 50%;
     margin-bottom: 50px;
 }
-div.event a#button3{
+
+section.event a#button3{
     font-size: 20px;
     margin-left: 5%;
     width: 5%;

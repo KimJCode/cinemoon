@@ -1,0 +1,35 @@
+div#box {
+    float:left;
+    width: 45%;
+    height: 45%;
+    height: 250px;
+    background-color: rgba(93, 209, 209, 0);
+     
+}
+
+.highlight {
+    height: 250px;
+    background-color: rgba(105, 108, 108, 0.353);
+    text-align: center;   
+    padding-top: 30px; 
+}
+        
+
+div.highlight p#beschreibung {
+    padding-top: 5%;
+    color: rgb(223, 223, 223);
+    border: 10px;
+    font-size: 30px;
+    border-color: white;
+    text-align: left; 
+     
+}
+
+.article h2 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+h2 {
+    color:rgba(93, 255, 255, 0.527);
+}
