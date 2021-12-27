@@ -15,45 +15,7 @@ article p {
     color: #a9b5add4;
 }
 
-<<<<<<< HEAD
-.navbar ul li {
-    list-style:none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-.navbar ul li ::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #b7f5f59c;
-    position: absolute;
-    left:0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-.navbar ul li :hover:after {
-    width:100%
-}
-
-.content {
-    width: 100%;
-    background-color:rgb(29, 28, 28);
-    color:white; 
-}
-
-.content h1 { 
-=======
 article h1 {
->>>>>>> main
     font-size: 70px;
     padding-top: 80px;
 }
