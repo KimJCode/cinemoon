@@ -1,8 +1,28 @@
 h2{
-    margin-top: 1%;
-    margin-bottom: 1%;
     font-size: 200%;
+    margin-bottom: 2%;
 }
-details summary{
-    font-size: 175%;
+.accordionitem{ 
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 1%;
+    padding:2%;
+}
+.fragetitel{
+    display:block;
+    margin-bottom: 0.5%;
+    font-size: 160%;
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+.antwort{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.2s ease;
+}
+p{  
+    padding: 1%;
+    background-color: rgb(29, 29, 29);
+}
+.accordionitem:target .antwort{
+    max-height: 50rem;
 }
