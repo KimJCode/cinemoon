@@ -33,3 +33,7 @@ div.highlight p#beschreibung {
 h2 {
     color:rgba(93, 255, 255, 0.527);
 }
+
+#action {
+    color:darkorange;   
+}
