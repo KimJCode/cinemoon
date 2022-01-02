@@ -18,3 +18,5 @@ Probleme:
 - Navigationsbar bleibt nicht im Banner wenn man weit raus zoomt
 - Programmseite muss noch richtig gemacht werden
 - Supportseite, bei der letzten Frage ist ein Bug wenn man sie aufklappt
+
+https://www.pexels.com/de-de/foto/orange-central-cinema-led-beschilderung-375885/
