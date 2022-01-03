@@ -8,6 +8,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    color:rgb(52, 121, 206);;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
 strong {
     color:rgb(52, 121, 206);;
 }
