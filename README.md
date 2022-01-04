@@ -25,3 +25,4 @@ JavaScript / PHP:
 - Header und Footer dynamisch erstellen lassen
 - E-Mail verschicken (soll dann auch ankommen)
 - Eventuell JavaScript nutzen für Animationen?
+https://www.pexels.com/de-de/foto/orange-central-cinema-led-beschilderung-375885/
