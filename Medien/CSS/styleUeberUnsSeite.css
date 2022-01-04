@@ -15,8 +15,4 @@ p{
   hyphens: auto; 
 	text-align: justify;
 }
-.middle{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
