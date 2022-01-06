@@ -128,7 +128,7 @@
                 </div>
                                 
                 <div class="BildDetail">
-                    <img src="../Medien/Bilder/SW2.jpg" class="DBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
+                    <img src="Medien/Bilder/SW2.jpg" class="DBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
                     <!-- https://th.bing.com/th/id/R.b0174aaff700140c8cb2e5b1ea2f24b4?rik=FUj6U2uWEOtAeg&pid=ImgRaw&r=0-->
                 </div>
             </div>

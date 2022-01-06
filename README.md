@@ -3,28 +3,30 @@ Willkommen bei cinemoon.
 
 In unserem Github finden Sie unseren umfangreichen Code!
 
-Bereit für Abgabe:
-- Homepage
-- Datenschutz
-- Event
-- Impressum
-- Gastro
-- Kontakt
-- Support
-
-
 Probleme:
 - Banner Hintergrundbild hat schlechte Resolution
 - Navigationsbar bleibt nicht im Banner wenn man weit raus zoomt
-- Programmseite muss noch richtig gemacht werden
-- Supportseite, bei der letzten Frage ist ein Bug wenn man sie aufklappt
+- responsive Design ist schlecht
 
 JavaScript / PHP:
 - Analytische Cookies (Wie oft auf welcher Seite) ❗
 - Formular (Ticketsystem?) 
-- Header und Footer dynamisch erstellen lassen ❗
+- Header und Footer dynamisch erstellen lassen ❗ (fertig)
 - E-Mail verschicken (soll dann auch ankommen) 
 - Eventuell JavaScript nutzen für Animationen? 
 - Support Ticket ❗
-https://www.pexels.com/de-de/foto/orange-central-cinema-led-beschilderung-375885/
-https://unsplash.com/photos/zeH-ljawHtg
+
+Validierte Dateien:
+CSS:
+- style1
+- styleDatenschutz
+- styleEvent
+- styleFilmseite
+- styleGastro
+- styleImpressum
+- styleIndex
+- styleKontakt
+- styleProgramm
+- styleSupport
+- styleUeberUnsSeite
+HTML/PHP:

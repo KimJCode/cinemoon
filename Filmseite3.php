@@ -29,7 +29,7 @@
     <!-- Film Box-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                       <img src="../Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">
+                       <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">
                         <!--https://th.bing.com/th/id/OIP.UNMn9DNbPBFYo_M1W56cJQHaLH?pid=ImgDet&rs=1-->
                     </div>
 

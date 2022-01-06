@@ -29,7 +29,7 @@
     <!-- Film Box-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                       <img src="../Medien/Bilder/TGB.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">
+                       <img src="Medien/Bilder/TGB.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">
                         <!--https://img.reelgood.com/content/movie/11d3fb8b-afc8-484b-a399-18fb9bc25980/poster-780.jpg-->
                     </div>
 

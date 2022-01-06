@@ -128,7 +128,7 @@
                 </div>
                                 
                 <div class="BildDetail">
-                    <img src="../Medien/Bilder/DeadPool2.jpg" class="DBild" alt="DeadPool" title="DeadPool">
+                    <img src="Medien/Bilder/DeadPool2.jpg" class="DBild" alt="DeadPool" title="DeadPool">
                     <!-- https://th.bing.com/th/id/R.f4954e93acf92b327adf236716e96d32?rik=ybCP7PtSJ4Q5QQ&pid=ImgRaw&r=0 -->
                 </div>
             </div>
