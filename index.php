@@ -20,18 +20,18 @@
             <article>
                 <h1> Highlights </h1>
                 <section class = "highlights">
-                    <a href = "Filmseite1.html" title = "James-Bond: No Time to Die">
+                    <a href = "Filmseite1.php" title = "James-Bond: No Time to Die">
                         <img class = "leftpicture" src = "Medien/Bilder/JamesBond.jpg" alt = "Titelbild von James Bond: No Time to Die">
                     </a>
-                    <a href = "Filmseite3.html" title = "Tenet">
+                    <a href = "Filmseite3.php" title = "Tenet">
                         <img class = "middlepicture" src = "Medien/Bilder/Tenet.jpg" title = "Bild für die AnimeNight">
                     </a>
                 </section>  <!-- Der Grund für zwei Boxen ist, dass wenn man die Seite minimiert immer mindestens zwei Bilder nebeneinander sind -->
                 <section class = "highlights">
-                    <a href = "Filmseite4.html" title = "Starwars: Der Aufstieg der Skywalker">
+                    <a href = "Filmseite4.php" title = "Starwars: Der Aufstieg der Skywalker">
                         <img class = "rightpicture" src = "Medien/Bilder/Starwars.jpg" title = "Titelbild für Starwars">
                     </a>
-                    <a href = "Gastroseite.html" title = "Rabattaktion">
+                    <a href = "Gastroseite.php" title = "Rabattaktion">
                         <img class = "middlepicture" src = "Medien/Bilder/Rabatt.jpeg" alt = "Rabatt-Bild">
                     </a>
                 </section>
