@@ -6,28 +6,17 @@
         <meta name = "description" content = "cinemoon-Film-James-Bond">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Filmx">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleFilmseite.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
     
     
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
@@ -40,7 +29,7 @@
     <!-- Film Box-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                       <img src="../Medien/Bilder/Starwars.jpg" class="PBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
+                       <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
                         <!--https://image.tmdb.org/t/p/original/7uJYadq29ZfZojh8YycsvQbY9y5.jpg-->
                     </div>
 
@@ -149,13 +138,8 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

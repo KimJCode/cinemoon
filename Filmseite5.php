@@ -6,28 +6,17 @@
         <meta name = "description" content = "cinemoon-Film-James-Bond">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Filmx">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleFilmseite.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
     
     
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
@@ -40,7 +29,7 @@
     <!-- Film Box-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                       <img src="../Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">
+                       <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">
                         <!--https://th.bing.com/th/id/R.67e57b705ff2d2ee55acc8ae16829071?rik=HylFVmMMXvwk8A&riu=http%3a%2f%2fwww.bt66.org%2fUploads%2fvod%2fk%2fkHPKh1.jpg&ehk=nudPfUCgSbqe8zPgeNS%2bEbEKh8l8aKatgHBkrR%2b6%2bMg%3d&risl=&pid=ImgRaw&r=0-->
                     </div>
 
@@ -149,13 +138,8 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

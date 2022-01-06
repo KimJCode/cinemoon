@@ -6,28 +6,17 @@
         <meta name = "description" content = "cinemoon-Film-James-Bond">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Filmx">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleFilmseite.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
     
     
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
@@ -138,7 +127,7 @@
                 </div>
                                 
                 <div class="BildDetail">
-                    <img src="../Medien/Bilder/JB1.jpg" class="DBild" alt="No Time To Die" title="No Time To Die">
+                    <img src="Medien/Bilder/JB1.jpg" class="DBild" alt="No Time To Die" title="No Time To Die">
                     <!-- https://th.bing.com/th/id/OIP.Wa3BZDII_pAU90Pe1LvJuwHaE7?pid=ImgDet&rs=1-->
                 </div>
             </div>
@@ -148,13 +137,8 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

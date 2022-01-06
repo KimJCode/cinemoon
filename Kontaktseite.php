@@ -6,26 +6,15 @@
         <meta name = "description" content = "cinemoon-Kontaktseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Kontakt, Kontakte">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleKontakt.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleKontakt.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+        <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
@@ -52,17 +41,17 @@
                     <h2> Ansprechpartner </h2>
                 <section class="aussenrum">
                     <div class="das-Element"> Max Mustermann 
-                                            <img src = "../Medien/Bilder/Mitarbeiter1.jpg" alt = "Geschäftsführer" height="250">
+                                            <img src = "Medien/Bilder/Mitarbeiter1.jpg" alt = "Geschäftsführer" height="250">
                                             <!-- https://th.bing.com/th/id/OIP.MYsCt3j5gVsvmkwPVAy3SQHaE8?pid=ImgDet&rs=1-->
                                             Geschäftsführer</div>
                     <div class="das-Element"> 
                                             Tim Kaufmann    
-                                            <img src = "../Medien/Bilder/Mitarbeiter2.jpg" alt = "Facilitymanager" height="250"> 
+                                            <img src = "Medien/Bilder/Mitarbeiter2.jpg" alt = "Facilitymanager" height="250"> 
                                             <!-- https://live.staticflickr.com/7152/6813354963_17d08d25ce_b.jpg -->
                                             Facility manager</div>
                     <div class="das-Element"> 
                                             Nils Heuer  
-                                            <img src = "../Medien/Bilder/Mitarbeiter3.jpg" alt = "Personalleiter" height="250"> 
+                                            <img src = "Medien/Bilder/Mitarbeiter3.jpg" alt = "Personalleiter" height="250"> 
                                             <!-- https://live.staticflickr.com/7091/7213689476_bd6e259d8f.jpg -->
                                             Personalleiter</div>
                 </section>
@@ -87,13 +76,8 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

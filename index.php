@@ -12,37 +12,26 @@
     </head>
 
     <body>
-        <header>
-            <nav>         
-                <a href = "index.html" title = "cinemoon-Homepage">
-                    <img src = "Medien/Bilder/Logo.png" alt = "Logo von cinemoon" class = "logo">
-                </a>
-                    <ul>
-                        <li><a class = "currentpage" href = "index.html">Home</a></li>
-                        <li><a href = "Seiten/Programmseite.html">Programm</a></li>
-                        <li><a href = "Seiten/Eventseite.html">Events</a></li>
-                        <li><a href = "Seiten/Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Seiten/Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-            </nav> 
-        </header>
+        <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
                 <h1> Highlights </h1>
                 <section class = "highlights">
-                    <a href = "Seiten/Filmseite1.html" title = "James-Bond: No Time to Die">
+                    <a href = "Filmseite1.html" title = "James-Bond: No Time to Die">
                         <img class = "leftpicture" src = "Medien/Bilder/JamesBond.jpg" alt = "Titelbild von James Bond: No Time to Die">
                     </a>
-                    <a href = "Seiten/Filmseite3.html" title = "Tenet">
+                    <a href = "Filmseite3.html" title = "Tenet">
                         <img class = "middlepicture" src = "Medien/Bilder/Tenet.jpg" title = "Bild für die AnimeNight">
                     </a>
                 </section>  <!-- Der Grund für zwei Boxen ist, dass wenn man die Seite minimiert immer mindestens zwei Bilder nebeneinander sind -->
                 <section class = "highlights">
-                    <a href = "Seiten/Filmseite4.html" title = "Starwars: Der Aufstieg der Skywalker">
+                    <a href = "Filmseite4.html" title = "Starwars: Der Aufstieg der Skywalker">
                         <img class = "rightpicture" src = "Medien/Bilder/Starwars.jpg" title = "Titelbild für Starwars">
                     </a>
-                    <a href = "Seiten/Gastroseite.html" title = "Rabattaktion">
+                    <a href = "Gastroseite.html" title = "Rabattaktion">
                         <img class = "middlepicture" src = "Medien/Bilder/Rabatt.jpeg" alt = "Rabatt-Bild">
                     </a>
                 </section>
@@ -67,13 +56,9 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Seiten/Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Seiten/Impressum.html">Impressum</a></li>
-                <li><a href = "Seiten/Supportseite.html">Support</a></li>
-                <li><a href = "Seiten/Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
+        
     </body>
 </html>

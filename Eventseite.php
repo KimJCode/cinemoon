@@ -6,26 +6,15 @@
         <meta name = "description" content = "cinemoon-Eventseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Events">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel = "stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel = "stylesheet" type = "text/css" href = "../Medien/CSS/styleEvent.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleEvent.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a class = "currentpage" href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
@@ -34,7 +23,7 @@
                     <h2>Ladies Night</h2>
                     
                     <div id="womanimgcon">
-                        <img src="../Medien/Bilder/woman.jpg" alt="Ladies Night Poster">
+                        <img src="Medien/Bilder/woman.jpg" alt="Ladies Night Poster">
                     </div>
                     <p id="paevent1">
                         Ladies Night bei cinemoon! Genießen Sie eine atemberaubende Nacht unter Frauen mit vergünstigten Wein, Snacks und Ticketpreisen zu den ausgewählten Filmen  
@@ -47,7 +36,7 @@
                     <h2>Anime Night</h2>
                     
                     <div id="animeimgcon">
-                        <img src="../Medien/Bilder/AnimeNight.jpg" alt="Anime Night Poster">
+                        <img src="Medien/Bilder/AnimeNight.jpg" alt="Anime Night Poster">
                     </div>
                     
                     <p id="paevent2">
@@ -61,7 +50,7 @@
                     <h2>Childhood Classics</h2>
                     
                     <div id="ccimgcon">
-                        <img src="../Medien/Bilder/childhoodclassics.jpg" alt="Childhood Classics Poster">
+                        <img src="Medien/Bilder/childhoodclassics.jpg" alt="Childhood Classics Poster">
                     </div>
                     
                     <p id="paevent3">
@@ -74,13 +63,8 @@
             </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

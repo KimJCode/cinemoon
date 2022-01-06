@@ -6,33 +6,22 @@
         <meta name = "description" content = "cinemoon-Über uns">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Über uns, Über-uns">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleUeberUnsSeite.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleUeberUnsSeite.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
     <body>
-        <header>
-            <nav class = "navbar">          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "conemoon Logo" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a class = "currentpage" href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-            </nav>
-        </header>
+        <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
         <main>
             <article>
                <h1> Über uns </h1>
                <div class = "Gridcontainer">
                    <div class = "bildcontainer">
-                        <img src ="../Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
+                        <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
                    </div>
                    <div class = "textcontainer">
                         <h2>Geschichte</h2>
@@ -51,10 +40,10 @@
                     </p>
                 </div>
                 <div class = "bildcontainer">
-                    <img src ="../Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
+                    <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
                </div>
                <div class = "bildcontainer">
-                <img src ="../Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino" width="650" height="450"> 
+                <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino" width="650" height="450"> 
            </div>
            <div class = "textcontainer">
                <h2>Philosophie</h2>
@@ -86,13 +75,8 @@
         </article>
     </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+    <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>

@@ -6,26 +6,15 @@
         <meta name = "description" content = "cinemoon-Programmseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Programm">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel = "stylesheet" type = "text/css" href = "../Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "../Medien/CSS/styleProgramm.css">
-        <link rel = "icon" href = "../Medien/Bilder/icon.png">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleProgramm.css">
+        <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
     <body>
-        <header>
-            <nav>          
-                <a href = "../index.html" title = "cinemoon-Homepage">
-                    <img src = "../Medien/Bilder/Logo.png" alt = "Link zur Homepage" class = "logo">
-                </a>
-                    <ul>
-                        <li><a href = "../index.html">Home</a></li>
-                        <li><a class = "currentpage" href = "Programmseite.html">Programm</a></li>
-                        <li><a href = "Eventseite.html">Events</a></li>
-                        <li><a href = "Gastroseite.html">Gastro</a></li>
-                        <li><a href = "Über-uns-seite.html">Über Uns</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <?php
+            include("Medien/phpSkripte/header.php");
+        ?>
 
        <!-- James Bond: No Time To  Die-->
         <main>
@@ -41,7 +30,7 @@
                             <col style="width: 14%">
                         </colgroup>
                             <tr class="PTableHead">
-                                <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite1.html" > <img src="../Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">  </a> </td>
+                                <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite1.php" > <img src="Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">  </a> </td>
                                 <td colspan=5 > <a href = "Filmseite1.html"> <h1> No Time To Die</h1>  </a>  </td>
                           </tr>
                                   <tr class="PTableContet">
@@ -76,7 +65,7 @@
                             <col style="width: 14%">
                         </colgroup>
                                 <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite2.html" > <img src="../Medien/Bilder/TheGreatGatsby.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">  </a> </td>
+                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite2.php" > <img src="Medien/Bilder/TheGreatGatsby.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">  </a> </td>
                                         <td colspan=5 > <a href = "Filmseite2.html"> <h1>The Great Gatsby </h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
@@ -111,7 +100,7 @@
                             <col style="width: 14%">
                             </colgroup>
                                 <tr class="PTableHead">
-                                    <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite3.html" > <img src="../Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">  </a> </td>
+                                    <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite3.php" > <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">  </a> </td>
                                     <td colspan=5 > <a href = "Filmseite3.html"> <h1>Tenet </h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
@@ -146,7 +135,7 @@
                             <col style="width: 14%">
                             </colgroup>
                                 <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite4.html" > <img src="../Medien/Bilder/Starwars.jpg" class="PBild" alt="Der Aufstieg Skywalkers" title="No Time To Die">  </a> </td>
+                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite4.php" > <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Der Aufstieg Skywalkers" title="No Time To Die">  </a> </td>
                                         <td colspan=5 > <a href = "Filmseite4.html"> <h1>Starwars: Der Aufstieg Skywalkers</h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
@@ -180,7 +169,7 @@
                             <col style="width: 14%">
                             </colgroup>
                                 <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite5.html" > <img src="../Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">  </a> </td>
+                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite5.php" > <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">  </a> </td>
                                         <td colspan=5 > <a href = "Filmseite5.html"> <h1> Deadpool</h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
@@ -206,13 +195,8 @@
                     </article>
         </main>
 
-        <footer>
-            <ul>
-                <li><a href = "Kontaktseite.html">Kontakt</a></li>
-                <li><a href = "Impressum.html">Impressum</a></li>
-                <li><a href = "Supportseite.html">Support</a></li>
-                <li><a href = "Datenschutzseite.html">Datenschutz</a></li>
-            </ul>
-        </footer>
+        <?php
+            include("Medien/phpSkripte/footer.php");
+        ?>
     </body>
 </html>
