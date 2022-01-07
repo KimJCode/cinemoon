@@ -75,8 +75,9 @@
         </article>
     </main>
 
-    <?php
+        <?php
             include("Medien/phpSkripte/footer.php");
         ?>
+        
     </body>
 </html>
