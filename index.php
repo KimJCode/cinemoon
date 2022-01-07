@@ -18,15 +18,15 @@
         <main>
             <article>
                 <h1> Highlights </h1>
-                <div class = "highlights">
-                    <a href = "Filmseite1.html" title = "James-Bond: No Time to Die">
+                <section class = "highlights">
+                    <a href = "Filmseite1.php" title = "James-Bond: No Time to Die">
                         <img class = "leftpicture" src = "Medien/Bilder/JamesBond.jpg" alt = "Titelbild von James Bond: No Time to Die">
                     </a>
                     <a href = "Filmseite3.php" title = "Tenet">
                         <img class = "middlepicture" src = "Medien/Bilder/Tenet.jpg" title = "Bild für die AnimeNight">
                     </a>
                     <!-- Der Grund für zwei Boxen ist, dass wenn man die Seite minimiert immer mindestens zwei Bilder nebeneinander sind -->
-                    <a href = "Filmseite4.html" title = "Starwars: Der Aufstieg der Skywalker">
+                    <a href = "Filmseite4.php" title = "Starwars: Der Aufstieg der Skywalker">
                         <img class = "rightpicture" src = "Medien/Bilder/Starwars.jpg" title = "Titelbild für Starwars">
                     </a>
                     <a href = "Gastroseite.php" title = "Rabattaktion">
@@ -47,7 +47,7 @@
                     <img src = "Medien/Bilder/we-are-hiring.jpeg" alt = "Wir stellen neues Personal ein"> <!-- title wiederum wird dem Nutzer beim über dem Bild hovern angezeigt -->
                     </div>
                     <p> Du möchtest in modernsten Kinos, im modernsten Arbeitsklima mit bester Work-Life-Balance arbeiten? <br> Dann ist heute dein Glückstag! <br> Wir suchen neues motiviertes
-                    Personal für mehrere Kinostandorten, sei es ein Vollzeitjob, Nebenjob oder einfach nur ein Ferienjob.<br> (melde dich einfach bei der zuständigen Person unter <a href = "Seiten/Kontaktseite.html" title = "Verlinkung zur Kontaktseite" > Kontakt</a>)</p>
+                    Personal für mehrere Kinostandorten, sei es ein Vollzeitjob, Nebenjob oder einfach nur ein Ferienjob.<br> (melde dich einfach bei der zuständigen Person unter <a href = "Kontaktseite.php" title = "Verlinkung zur Kontaktseite" > Kontakt</a>)</p>
                 </section>
 
                 <h1> Anstehende Events </h1>
