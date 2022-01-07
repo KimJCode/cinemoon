@@ -42,17 +42,17 @@
                 <section class="aussenrum">
                     <div class="das-Element"> Max Mustermann 
                                             <img src = "Medien/Bilder/Mitarbeiter1.jpg" alt = "Geschäftsführer" height="250">
-                                            <!-- https://th.bing.com/th/id/OIP.MYsCt3j5gVsvmkwPVAy3SQHaE8?pid=ImgDet&rs=1-->
+                                            <!-- https://www.flickr.com/photos/kk/6813331803/in/photostream/-->
                                             Geschäftsführer</div>
                     <div class="das-Element"> 
                                             Tim Kaufmann    
                                             <img src = "Medien/Bilder/Mitarbeiter2.jpg" alt = "Facilitymanager" height="250"> 
-                                            <!-- https://live.staticflickr.com/7152/6813354963_17d08d25ce_b.jpg -->
+                                            <!--  https://www.flickr.com/photos/kk/6815147221/in/photostream/ -->
                                             Facility manager</div>
                     <div class="das-Element"> 
                                             Nils Heuer  
                                             <img src = "Medien/Bilder/Mitarbeiter3.jpg" alt = "Personalleiter" height="250"> 
-                                            <!-- https://live.staticflickr.com/7091/7213689476_bd6e259d8f.jpg -->
+                                            <!-- https://www.flickr.com/photos/kk/7213589000/in/album-72157629152404511/ -->
                                             Personalleiter</div>
                 </section>
 

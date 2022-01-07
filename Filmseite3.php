@@ -40,9 +40,10 @@
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Christopher Nolan </p></li>
                             <li> <br></li>
-                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Leonardo DiCaprio, Tobey Maguire, Carey Mulligan </p></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span>  John David Washington, Robert Pattinson, Aaron Taylor-Johnson </p></li>
                             <li> <br></li>
-                            <li> <p class="p2">John David Washington ist der Protagonist in Christopher Nolans neuem Sci-Fi-ActionSpektakel „Tenet“. Um die gesamte Welt vor dem Untergang zu bewahren, steht dem Protagonisten nur ein einziges Wort zur Verfügung: Tenet. Seine Mission führt ihn in eine zwielichtige Welt der internationalen Spionage, in der die Gesetze der Zeit nicht zu gelten scheinen. Zeitreisen? Nein. Inversion. </p></li>
+                            <li> <p class="p2">In Christopher Nolans neuen Action-Thriller "Tenet" spielt John David Washington einen Agenten, der die ganze Welt vor dem Untergang retten muss.
+                                               Auf seiner Rettungsmission trifft er auf die schmutzige Welt der internationalen Geheimdienste, doch das entscheidende ist, dass sich durch mysteriöse Technologie die Gesetzte der Zeit anscheinend manipuliert werden können. </p></li>
                                     <!-- (Quelle: Verleih) -->
                             
                         </ul>

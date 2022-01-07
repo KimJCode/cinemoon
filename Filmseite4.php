@@ -101,7 +101,7 @@
                 <div class="TextDetail">
                      <h4> Film-Details </h4>
                      <br>
-                     <p class="p2">42 Jahre Star Wars Saga erreichen dieses Jahr ihren Höhepunkt: J.J. Abrams wird die legendäre Saga im Dezember mit Star Wars: Der Aufstieg Skywalkers zu einem epischen Ende führen  </p> 
+                     <p class="p2">J.J Abrams krönt mit "Der Aufstieg Skywalkers" den Höhepunkt der epischen Starwars Saga  </p> 
                      <br>
                      <table class="TDetail">
                         <colgroup>

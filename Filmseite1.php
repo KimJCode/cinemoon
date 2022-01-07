@@ -41,7 +41,7 @@
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Daniel Craig, Rami Malek, Léa Seydoux, Ana de Armas </p></li>
                             <li> <br></li>
-                            <li> <p class="p2">James Bond  hat seine Lizenz zum Töten im Auftrag des britischen Geheimdienstes abgegeben und genießt seinen Ruhestand in Jamaika. Die friedliche Zeit nimmt ein unerwartetes Ende, als sein alter CIA-Kollege Felix Leiter auftaucht und ihn um Hilfe bittet. Ein bedeutender Wissenschaftler ist entführt worden und muss so schnell wie möglich gefunden werden. Was als simple Rettungsmission beginnt, erreicht bald einen bedrohlichen Wendepunkt, denn Bond kommt einem geheimnisvollen Gegenspieler auf die Spur, der im Besitz einer brandgefährlichen neuen Technologie ist. </p></li>
+                            <li> <p class="p2">Der bekannte Doppelnullagent James Bond genießt sein vorzeitigen Ruhestand auf Jamaika, bis sein alter CIA-Kollege Felix auftaucht und ihn in einem mysteriösen Fall um Hilfe bittet. Die Mission ist einen entführten Wissenschaftler zu retten und die Welt vor einer biologischen Massenvernichtungswaffe zu schützen. </p></li>
                                     <!-- (Quelle: Verleih) -->
                             
                         </ul>
