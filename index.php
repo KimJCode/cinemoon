@@ -11,12 +11,10 @@
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
-
     <body>
         <?php
             include("Medien/phpSkripte/header.php");
         ?>
-
         <main>
             <article>
                 <h1> Highlights </h1>
