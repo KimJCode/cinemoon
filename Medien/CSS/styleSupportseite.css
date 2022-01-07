@@ -7,11 +7,13 @@ h2{
     font-size: 200%;
     margin-bottom: 2%;
 }
+
 .accordionitem{ 
     background-color: rgb(34, 34, 34);
     margin-bottom: 1%;
     padding:2%;
 }
+
 .fragetitel{
     display:block;
     margin-bottom: 0.5%;
@@ -19,18 +21,31 @@ h2{
     text-decoration: none;
     color: rgb(255, 255, 255)
 }
+
 .antwort{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.2s ease;
+    transition: 1.2s ease;
 }
+
 p{  
     padding: 1%;
     background-color: rgb(29, 29, 29);
 }
+
+.special {
+    color:rgb(52, 121, 206);
+}
+
 .accordionitem:target .antwort{
     max-height: 50rem;
 }
-#frage5 {
-    margin-bottom:0px;
+
+#userQuestion {
+    margin-bottom: 0px;;
+}
+
+span {
+    font-size: smaller;
+    color:white;
 }

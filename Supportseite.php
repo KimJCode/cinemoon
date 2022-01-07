@@ -70,6 +70,17 @@
                         </div>
                     </div>
                 </div>
+                <div class = "accordionitem" id = "userQuestion">   <!-- Hier soll man eine E-Mail verschicken können (man soll hier ein Formular ausfüllen können) -->
+                    <a class = "fragetitel" href = #userQuestion> Sie haben eine andere Frage? </a>
+                    <div class = "antwort">
+                        <p>
+                           <?php
+                                include("Medien/phpSkripte/supportticket.php")
+                            ?>
+                        </p>
+                        <br>
+                    </div>
+                </div>
             </article>
         </main>
         

@@ -44,7 +44,7 @@
                     <br><br>
                     <img src = "Medien/Bilder/we-are-hiring.jpeg" alt = "Wir stellen neues Personal ein"> <!-- title wiederum wird dem Nutzer beim über dem Bild hovern angezeigt -->
                     <p> Du möchtest in modernsten Kinos, im modernsten Arbeitsklima mit bester Work-Life-Balance arbeiten? <br> Dann ist heute dein Glückstag! <br> Wir suchen neues motiviertes
-                    Personal für mehrere Kinostandorten, sei es ein Vollzeitjob, Nebenjob oder einfach nur ein Ferienjob.<br> (melde dich einfach bei der zuständigen Person unter <a href = "Seiten/Kontaktseite.html" title = "Verlinkung zur Kontaktseite" > Kontakt</a>)</p>
+                    Personal für mehrere Kinostandorten, sei es ein Vollzeitjob, Nebenjob oder einfach nur ein Ferienjob.<br> (melde dich einfach bei der zuständigen Person unter <a href = "Kontaktseite.php" title = "Verlinkung zur Kontaktseite" > Kontakt</a>)</p>
                 </section>
 
                 <h1> Anstehende Events </h1>
