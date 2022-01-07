@@ -31,7 +31,7 @@
                         </colgroup>
                             <tr class="PTableHead">
                                 <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite1.php" > <img src="Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">  </a> </td>
-                                <td colspan=5 > <a href = "Filmseite1.html"> <h1> No Time To Die</h1>  </a>  </td>
+                                <td colspan=5 > <a href = "Filmseite1.php"> <h1> No Time To Die</h1>  </a>  </td>
                           </tr>
                                   <tr class="PTableContet">
                                       <td  colspan=5 > <strong>Action</strong> FSK 12 164Minuten <br>
@@ -66,7 +66,7 @@
                         </colgroup>
                                 <tr class="PTableHead">
                                         <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite2.php" > <img src="Medien/Bilder/TheGreatGatsby.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite2.html"> <h1>The Great Gatsby </h1> </a>  </td>
+                                        <td colspan=5 > <a href = "Filmseite2.php"> <h1>The Great Gatsby </h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Drama</strong> FSK 12 142Minuten <br>
@@ -101,7 +101,7 @@
                             </colgroup>
                                 <tr class="PTableHead">
                                     <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite3.php" > <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">  </a> </td>
-                                    <td colspan=5 > <a href = "Filmseite3.html"> <h1>Tenet </h1> </a>  </td>
+                                    <td colspan=5 > <a href = "Filmseite3.php"> <h1>Tenet </h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Action</strong> FSK 12 150Minuten<br>
@@ -136,7 +136,7 @@
                             </colgroup>
                                 <tr class="PTableHead">
                                         <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite4.php" > <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Der Aufstieg Skywalkers" title="No Time To Die">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite4.html"> <h1>Starwars: Der Aufstieg Skywalkers</h1> </a>  </td>
+                                        <td colspan=5 > <a href = "Filmseite4.php"> <h1>Starwars: Der Aufstieg Skywalkers</h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Science-Fiction</strong> FSK 12 42Minuten <br>
@@ -170,7 +170,7 @@
                             </colgroup>
                                 <tr class="PTableHead">
                                         <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite5.php" > <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite5.html"> <h1> Deadpool</h1> </a>  </td>
+                                        <td colspan=5 > <a href = "Filmseite5.php"> <h1> Deadpool</h1> </a>  </td>
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Action</strong> FSK 16 108Minuten <br>

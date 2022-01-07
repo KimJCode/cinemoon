@@ -60,7 +60,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="accordionitem" id=frage5>
+                    <div class="accordionitem" id=frage5> <!-- Das Margin wurde weggenommen, damit wenn man die letzte Frage aufklappt kein weißer Rand über dem Footer entsteht bei zu kleinen Monitoren -->
                         <a class="fragetitel" href=#frage5>Wie barrierefrei ist cinemoon?</a>
                         <div class="antwort">
                             <p>
@@ -70,7 +70,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             </article>
         </main>
         

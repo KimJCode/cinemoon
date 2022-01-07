@@ -17,7 +17,7 @@
 
         <main>
             <article>
-               <h1> Noch in Bearbeitung </h1>
+               <h1> Aufgrund der Coronapandemie sind keine Events geplant </h1>
             </article>
         </main>
 

@@ -44,7 +44,7 @@
                         Registernummer: 123456 <br>
                         Umsatzsteuer-ID-Nr.: G57U236ZK08 <br><br>
                         Cinemoon ist eine private Firma, welche selbstausgewählte Filme mit den entsprechenden Rechten vorführt. <br>
-                        Cinemoon erfüllt jegliche Qualitätsbestimmungen (z.B Bei der <a href = "Gastroseite.html"> Gastronomie</a>).
+                        Cinemoon erfüllt jegliche Qualitätsbestimmungen (z.B Bei der <a href = "Gastroseite.php"> Gastronomie</a>).
                     </p>
                 </section>
                 <br><br>

@@ -8,7 +8,7 @@
             <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/Programmseite.php" ){ print("class=\"currentpage\"");}?> href = "Programmseite.php">Programm</a></li>
             <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/Eventseite.php" ){ print("class=\"currentpage\"");}?> href = "Eventseite.php">Events</a></li>
             <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/Gastroseite.php" ){ print("class=\"currentpage\"");}?> href = "Gastroseite.php">Gastro</a></li>
-            <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/Uber-uns-seite.php" ){ print("class=\"currentpage\"");}?>href = "Uber-uns-seite.php">Über Uns</a></li>
+            <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/Uber-uns-seite.php" ){ print("class=\"currentpage\"");}?> href = "Uber-uns-seite.php">Über Uns</a></li>
         </ul>
     </nav> 
 </header>

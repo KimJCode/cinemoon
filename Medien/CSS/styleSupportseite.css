@@ -31,3 +31,6 @@ p{
 .accordionitem:target .antwort{
     max-height: 50rem;
 }
+#frage5 {
+    margin-bottom:0px;
+}
