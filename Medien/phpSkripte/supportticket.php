@@ -35,4 +35,4 @@
     </p>
 </form>
 
-<!-- Hier muss jetzt mit den angegebenen Daten selektiert werden an welche E-Mail die Anfrage geschickt werden soll --> 
+<!-- Hier muss jetzt mit den angegebenen Daten selektiert werden an welche E-Mail die Anfrage geschickt werden soll -->
