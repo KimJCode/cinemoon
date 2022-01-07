@@ -1,0 +1,15 @@
+p {
+    display: inline-block;
+    text-align: justify;
+    border: solid thin rgb(52, 121, 206);;
+    margin: 0;
+    padding:10px;
+}
+
+h1 {
+    text-align:center;
+}
+
+span {
+    color:rgb(52, 121, 206);
+}

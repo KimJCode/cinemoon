@@ -12,8 +12,8 @@ JavaScript / PHP:
 - Analytische Cookies (Wie oft auf welcher Seite) ❗
 - Formular (Ticketsystem?) 
 - Header und Footer dynamisch erstellen lassen ❗ (fertig)
-- E-Mail verschicken (soll dann auch ankommen) 
-- Eventuell JavaScript nutzen für Animationen? 
+- E-Mail verschicken (soll dann auch ankommen)
+- Eventuell JavaScript nutzen für Animationen?
 - Support Ticket ❗
 
 Validierte Dateien:
