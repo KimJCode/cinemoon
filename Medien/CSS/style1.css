@@ -1,3 +1,14 @@
+/* mobile variante */
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: rgb(29, 28, 28);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +16,7 @@
 }
 
 article {   
-    margin: auto;
-    max-width: 1200px;
-    min-height: 100vh;
+
 }
 
 article p {
@@ -16,14 +25,14 @@ article p {
 }
 
 article h1 {
-    font-size: 70px;
-    padding-top: 80px;
+    text-align: center;
+    font-size: 400%;
 }
 
 footer {
     text-align: center;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color: rgb(163, 163, 163);
     height: 50px;
     width:100%;
     color: rgba(255, 255, 255, 0.568);
@@ -58,30 +67,31 @@ footer ul li a:hover {
 
 main {
     width: 100%;
-    background-color: rgb(29, 28, 28);
     color: white;
 }
 
-main h1 { 
-    font-size: 70px;
-    padding-top: 80px;
+nav {
+    display:flex;
+    justify-content:flex-start;
+    width: 100%;
+    gap:1%;
+    margin: auto;
+    align-items: center;
+}
+nav a img{
+    width:100%;
+    height:100%;
+}
+.logo{
+    width:50%;
+    height:50%; 
 }
 
-nav {
-    width: 85%;
-    height: 25vh;
-    margin: auto;
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 nav ul li {
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+    width:100%;
 }
 
 nav ul li a {
@@ -106,18 +116,12 @@ nav ul li :hover:after {
 }
 
 header {
-    width: 100%;
-    height: 200px; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
     background-size: cover;
     background-position: center;
 }
 
-.logo {
-    height: 300px;
-    width: 300px;
-    cursor: pointer;
-}
+
 
 .currentpage {
     color: rgb(255, 255, 255);
@@ -133,3 +137,153 @@ header {
     0 0 200px rgb(197, 233, 205),
     0 0 350px rgb(197, 233, 205);
 }
+
+
+
+
+
+
+
+
+/*Desktop Version*/
+
+
+@media only screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    article {
+        margin:auto; 
+        max-width: 1200px;
+        min-height: 100vh;
+        margin-bottom: 1%;
+    }
+    
+    article p {
+        font-size: 150%;
+        color: #a9b5add4;
+    }
+    
+    article h1 {
+        font-size: 70px;
+        padding-top: 80px;
+        
+    }
+    
+    footer {
+        text-align: center;
+        position: relative;
+        height: 50px;
+        width:100%;
+        color: rgba(255, 255, 255, 0.568);
+    }
+    
+    footer ul{
+        position: absolute;
+        width: 100%;
+        top: 15px;
+        list-style-type: none;
+    }
+    
+    footer li{
+        display: inline;
+        margin-bottom: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: beige;
+    }
+    
+    footer ul li a:hover {
+        color: rgb(76, 68, 68);
+        font-weight: 10px;
+        text-shadow: black 3px 2px 4px;
+        color: beige;
+        cursor: pointer;
+    }
+    
+    main h1 { 
+        font-size: 70px;
+        padding-top: 80px;
+    }
+    
+    nav {
+        width: 100%;
+        margin: auto;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40%
+    }
+    nav ul{
+        display:flex;
+        justify-content: flex-start;
+        gap:4%;
+    }
+    nav ul li {
+        list-style: none;
+        position: relative;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    
+    nav ul li ::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #b7f5f59c;
+        position: absolute;
+        left:0;
+        bottom: -5px;
+        transition: 0.5s;
+    }
+    
+    nav ul li :hover:after {
+        width:100%
+    }
+    
+    header {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .logo {
+        height: 13%;
+        width: 13%;
+        cursor: pointer;
+    }
+    .logo a {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .currentpage {
+        color: rgb(255, 255, 255);
+        text-shadow:  /* Die Pixelzahl ist der Radius */ 
+        0 0 7px rgb(197, 233, 205),
+        0 0 10px rgb(197, 233, 205),
+        0 0 21px rgb(197, 233, 205),
+        0 0 42px rgb(197, 233, 205),
+        0 0 82px rgb(197, 233, 205),
+        0 0 92px rgb(197, 233, 205),
+        0 0 102px rgb(197, 233, 205),
+        0 0 151px rgb(197, 233, 205),
+        0 0 200px rgb(197, 233, 205),
+        0 0 350px rgb(197, 233, 205);
+    }
+}
+
