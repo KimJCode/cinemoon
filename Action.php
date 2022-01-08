@@ -25,13 +25,26 @@
                     Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
                     
                     <span>Vor- und Nachname: </span><?php echo htmlspecialchars($_POST['anrede']); ?> <?php echo htmlspecialchars($_POST['name']); ?> <br>
-                    <span>E-Mail: </span><?php echo htmlspecialchars($_POST['e-mail']); ?> <br><br>
+                    <span>E-Mail: </span><?php echo htmlspecialchars($_POST['email']); ?> <br><br>
                     <!-- Hier muss angegeben werden was der User unter den Checkboxen angeklickt hat -->
                     <span>Ihre Frage:</span> <?php echo htmlspecialchars($_POST['question']); ?> <br>
                 </p>
             </article>
         </main>
 
+        <?php
+            extract($_POST);
+            $file=fopen("supportfile.txt", "a"); // "a" Open for writing only; place the file pointer at the end of the file. If the file does not exist, attempt to create it.
+            fwrite($file, "Name: ");
+            fwrite($file, $name ."\n");
+            fwrite($file, "E-Mail: ");
+            fwrite($file, $email ."\n");
+            fwrite($file, "Frage: ");
+            fwrite($file, $question ."\n");
+            fwrite($file, "--------------------------------\n");
+            fclose($file);
+        ?>
+        
         <?php
             include("Medien/phpSkripte/footer.php");
         ?>

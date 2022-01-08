@@ -2,9 +2,9 @@
 
 /* mobile variante auf der alles aufbaut*/
 html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
+    width: 100%; /* füllt den ganzen Bildschirm aus */
+    height: 100%; /* füllt den ganzen Bildschirm aus */
+    margin: 0px; 
     padding: 0px;
     overflow-x: hidden; /*damit kein weißer Rand oder sonst was entsteht*/
     background-color: rgb(29, 28, 28);
@@ -17,7 +17,7 @@ html,body {
 }
 
 article p {
-    font-size: 150%;
+    font-size: 150%; /* die font-size wird generell auf "%" gesetzt, damit sich die Schriftgröße relativ zur Bildschirmgröße verhält */ 
     color: #a9b5add4;
 }
 
@@ -26,8 +26,8 @@ article h1 {
 }
 
 footer {
-    text-align: center;
-    position: relative;
+    text-align: center; /* setzt den Text immer mittig */
+    position: relative; 
     background-color: rgb(163, 163, 163);
     height: 50px;
     width:100%;
