@@ -1,11 +1,13 @@
-/* mobile variante */
+/*Stylesheet Grundgerüst, Header(Navbar, Logo etc.), Body und Footer*/
+
+/* mobile variante auf der alles aufbaut*/
   html,body
 {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden; /*damit kein weißer Rand oder sonst was entsteht*/
     background-color: rgb(29, 28, 28);
 }
 
@@ -14,18 +16,12 @@
     padding: 0;
     font-family: sans-serif; /* Schriftart ist gut lesbar (barrierefreiheit), optisch ansprechend und minimalistisch */
 }
-
-article {   
-
-}
-
 article p {
     font-size: 150%;
     color: #a9b5add4;
 }
 
 article h1 {
-    text-align: center;
     font-size: 400%;
 }
 
@@ -86,8 +82,6 @@ nav a img{
     height:50%; 
 }
 
-
-
 nav ul li {
     list-style: none;
     width:100%;
@@ -99,20 +93,6 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav ul li ::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #b7f5f59c;
-    position: absolute;
-    left:0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-nav ul li :hover:after {
-    width:100%
-}
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
@@ -122,7 +102,7 @@ header {
 
 
 
-.currentpage {
+.currentpage { /*Hintergrundeffekt je nachdem, auf was für einer man ist*/
     color: rgb(255, 255, 255);
     text-shadow:  /* Die Pixelzahl ist der Radius */ 
     0 0 7px rgb(197, 233, 205),
@@ -144,16 +124,11 @@ header {
 
 
 
-/*Desktop Version*/
+/*Desktop Version Anpassung basierend auf der mobilen Variante*/
 
 
 @media only screen and (min-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-    }
-    
+
     article {
         margin:auto; 
         max-width: 1200px;
@@ -215,19 +190,18 @@ header {
     nav {
         width: 100%;
         margin: auto;
-        padding: 15px 0;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 40%
+        justify-content:center;
+        gap:35% /*Abstand zwischen Flexelemente, also Logo und Menüleiste*/
     }
     nav ul{
-        display:flex;
-        justify-content: flex-start;
-        gap:4%;
+        width: 35%;
     }
     nav ul li {
-        list-style: none;
+        margin-right:5%; /*Abstand zwischen Menüleistenelemente*/
+        display:inline; /*damit die Menüleistenelemente nicht als Liste angezeigt werden, sondern nebeneinander*/
+        list-style: none; /*kein Stichpunkte*/
         position: relative;
     }
     
@@ -235,10 +209,9 @@ header {
         text-decoration: none;
         color: #ffffff;
         text-transform: uppercase;
-        white-space: nowrap;
     }
     
-    nav ul li ::after {
+    nav ul li ::after { /*Unterstricheffekt basierend darauf, wo man drüberhovert*/
         content: '';
         height: 3px;
         width: 0;
@@ -261,13 +234,13 @@ header {
     }
     
     .logo {
-        height: 13%;
-        width: 13%;
+        height: 20%;
+        width: 20%; /*Einstellung, wie groß Logo sein*/
         cursor: pointer;
     }
     .logo a {
         height: 100%;
-        width: 100%;
+        width: 100%; /*nicht verändenr*/
     }
     
     .currentpage {

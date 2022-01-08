@@ -6,8 +6,9 @@
         <meta name = "description" content = "cinemoon-Programmseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Programm">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleProgramm.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 

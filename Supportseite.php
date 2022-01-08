@@ -30,7 +30,8 @@
                                     cinemoon.support@gmail.com <br>
                                     Auch können Sie uns natürlich telefonisch erreichen unter dieser Telefonnummer von 08:00 - 20:00 : <br>
                                     +49 176 59092582 <br>
-                                    Nähere Details gibt es auf der <a href = "Kontaktseite.php">Kontaktseite</a>
+                                    Nähere Details gibt es auf der <a href = "Kontaktseite.php">Kontaktseite</a>.
+                                    Ansonsten können Sie im letzten Reiter auch Kontakt über unser <a href="#userQuestion">Supportticketsystem</a> nehmen.
                                 </p>
                             </div>
                         </div>

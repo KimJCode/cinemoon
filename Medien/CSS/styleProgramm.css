@@ -10,6 +10,9 @@ strong {
     max-width: 1200px;
     margin:0 auto;
 }
+.article h1{
+    text-align: start;
+}
 
 .Programm {
     background-color: rgba(240, 255, 255, 0.231);

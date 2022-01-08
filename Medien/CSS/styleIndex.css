@@ -4,6 +4,7 @@ a {
 }
 
 h1 {
+    text-align: center;
     color:white;
     margin-bottom: 20px;
 }
@@ -21,18 +22,18 @@ strong {
 
 .highlights{
     display:flex;
-    gap: 1%;
-    justify-content: center;
+    gap: 1%; /*Abstand zwischen Flexitems*/
+    justify-content: center; /*Flexitems ordnen sich nach bedarf untereinander ab, wichtig für Responsiv Design*/
     flex-wrap:wrap;
 }
 
 .highlights a img{
-    height:100%;
+    height:100%; /*nicht verändern*/
     width:100%;
 }
 .highlights a{
     height:400px;
-    width:250px;
+    width:250px; /*Größe des a Elements, somit auch des Bildes*/
 }
 
 .news {
@@ -79,7 +80,7 @@ strong {
 }
 .events{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Flexitems ordnen sich nach bedarf untereinander ab, wichtig für Responsiv Design*/
     justify-content: center;
     align-items: center;
     gap:1%;
@@ -99,22 +100,4 @@ strong {
     padding:10px;
 }
 
-@media only screen and (min-width: 768px) {
-    .events div{
-        width:200px;
-        height:200px;
-    }
-    .events div img{
-        width:100%;
-        height:100%;
-    }
-    .events p {
-        border: solid thin rgb(52, 121, 206);;
-        margin: 0;
-        width:70%;
-        padding:10px;
-    }
-    
-
-}
 

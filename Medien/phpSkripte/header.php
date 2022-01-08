@@ -1,7 +1,7 @@
 <header>
     <nav>         
         <a href = "index.php" title = "cinemoon-Homepage" class = "logo" id = "Desktoplogo">
-            <img src = "Medien/Bilder/Logo.png" alt = "Logo von cinemoon">
+            <img src = "Medien/Bilder/Logo3.png" alt = "Logo von cinemoon">
         </a>
         <ul>
             <li><a <?php $name = "$_SERVER[PHP_SELF]"; if($name == "/cinemoon/index.php" ){ print("class=\"currentpage\"");}?> href = "index.php">Home</a></li>

@@ -32,7 +32,7 @@
                     <a href = "Gastroseite.php" title = "Rabattaktion">
                         <img class = "middlepicture" src = "Medien/Bilder/Rabatt.jpeg" alt = "Rabatt-Bild">
                     </a>
-                </div>
+                </section>
                 
 
                 <h1> Neuigkeiten bei cinemoon </h1>
