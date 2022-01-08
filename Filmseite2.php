@@ -43,8 +43,11 @@
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Leonardo DiCaprio, Tobey Maguire, Carey Mulligan </p></li>
                             <li> <br></li>
-                            <li> <p class="p2">New York City im Jahre 1922: Die Luft prickelt verheißungsvoll für den jungen angehenden Autor Nick Carraway. Die Stadt wird beherrscht von der lockeren Moral der Schwarzhandelskönige, der Rhythmus des Jazz? pulsiert. All das wird zu einer einzigen Verlockung für den unbedarften Jüngling aus dem Mittleren Westen. Als er dann den Dandy Jay Gatsby kennenlernt, gerät Carraway vollends in den hypnotischen Bann der Leichtlebigkeit. </p></li>
-                                    <!-- (Quelle: Verleih) -->
+                            <li> <p class="p2">>Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
+                                                 Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
+                                                Durch Gatsby lernt er die atemberaubende Welt der Schönen und Reichen kennen. 
+                                                Im Rausch der 1920er New Yorker Jahre erlebt er ein Abenteuer aus Exzess und Liebe.</p></li>
+                                    
                             
                         </ul>
                     </div>
@@ -102,7 +105,7 @@
                 <div class="TextDetail">
                      <h4> Film-Details </h4>
                      <br>
-                     <p class="p2"> Der große Gatsby  ist ein US-amerikanisches Filmdrama aus dem Jahr 2013. Es ist eine 3D-Literaturverfilmung des mehrfach verfilmten Romans Der große Gatsby von F. Scott Fitzgerald aus dem Jahr 1925. </p> 
+                     <p class="p2">The Great Gatsby ist ein US-amerikanisches Filmdrama aus 2013. Der Film basiert auf F. Scotts Roman "The Great Gatsby" aus dem Jahr 1925. </p> 
                      <br>
                      <table class="TDetail">
                         <colgroup>

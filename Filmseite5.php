@@ -42,8 +42,8 @@
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Ryan Reynolds, Morena Baccarin, Ed Skrein, </p></li>
                             <li> <br></li>
-                            <li> <p class="p2">Kurz nachdem der ehemalige Special Forces-Soldat und Söldner Wade Wilson erfährt, dass er Krebs im Endstadium hat, schlägt ihm der skrupellose Laborleiter Ajax die Teilnahme an einem Experiment vor, das ihn unsterblich machen könnte. Wade willigt ein, bezahlt aber einen hohen Preis dafür, denn als er aus seinem Laborschlaf erwacht, ist sein Gesicht vollkommen entstellt. Dennoch gibt er nicht auf: In seinem schwarz-roten Kampfanzug wird er zur unverwüstlichen Fight-Maschine Deadpool und beginnt umgehend mit seinem gnadenlosen Rachefeldzug. </p></li>
-                                    <!-- (Quelle: Verleih) -->
+                            <li> <p class="p2">Der Protagonist Wade Wilson lebt gerade noch ein ganz normales Leben bis er eine Krebsdiagnose erhält. In Verzweiflung willigt er einem skrupellosen Laborexperiment ein, um den Krebs zu besiegen. Doch nicht nur der Krebs wurde besiegt, durch die Behandlung ist sein Körper entstellt. Damit beginnt sein persönlicher Rachefeldzug. </p></li>
+                                  
                             
                         </ul>
                     </div>
@@ -101,7 +101,7 @@
                 <div class="TextDetail">
                      <h4> Film-Details </h4>
                      <br>
-                     <p class="p2">Deadpool ist ein US-amerikanischer Actionfilm mit satirischen Elementen. Die Comicverfilmung basiert auf der Comicfigur Deadpool des Marvel-Verlages.  </p> 
+                     <p class="p2">Deadpool basiert auf der gleichnamigen Marvel Comicfigur. Der Film sticht durch seine unkonventionelle und humoristisch Art.  </p> 
                      <br>
                      <table class="TDetail">
                         <colgroup>

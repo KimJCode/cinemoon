@@ -37,7 +37,7 @@
                                   <tr class="PTableContet">
                                       <td  colspan=5 > <strong>Action</strong> FSK 12 164Minuten <br>
 
-                                        Im 25. "James Bond"-Film findet Daniel Craig als 007 einen gefährlichen Widersacher in Oscar-Preisträger Rami Malek ("Bohemian Rhapsody"). </td>
+                                      Der bekannte Doppelnullagent James Bond genießt sein vorzeitigen Ruhestand auf Jamaika, bis sein alter CIA-Kollege Felix auftaucht und ihn in einem mysteriösen Fall um Hilfe bittet. Die Mission ist einen entführten Wissenschaftler zu retten und die Welt vor einer biologischen Massenvernichtungswaffe zu schützen. </td>
                                  </tr>
                                  <tr class="PTableDate">
                                     <td>Montag</td>
@@ -71,7 +71,9 @@
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Drama</strong> FSK 12 142Minuten <br>
-                                        The Great Gatsby erzählt von dem hoffnungsvollen Nachwuchsautor Nick Carraway: Er kommt im Frühjahr 1922 aus dem Mittelwesten nach New York City, das von lockeren Moralvorstellungen, Jazz-Glamour, mächtigen Alkoholschmugglern und ins Astronomische steigenden Aktien geprägt wird.
+                                        Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
+                                        Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
+                                        Im Rausch der 1920er New Yorker Jahre erlebt er ein Abenteuer aus Exzess und Liebe.
                                     </td>
                                 </tr>
                                 <tr class="PTableDate">
@@ -106,7 +108,8 @@
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Action</strong> FSK 12 150Minuten<br>
-                                        In „Tenet“ wird ein CIA-Agent – im Film nur Protagonist genannt (John David Washington) – gefangen genommen und gefoltert. Wenig später erwacht er in einem Krankenbett und wird von einer mysteriösen Organisation namens Tenet rekrutiert, um den Dritten Weltkrieg zu vereiteln.
+                                    In Tenet spielt John David Washington einen Agenten, der die ganze Welt vor dem Untergang retten muss.
+                                        Auf seiner Rettungsmission trifft er auf die Welt der internationalen Geheimdienste, doch das entscheidende ist, dass sich durch mysteriöse Technologie die Gesetzte der Zeit anscheinend manipuliert werden können.
                                     </td>
                                 </tr>
                                 <tr class="PTableDate">
@@ -141,7 +144,7 @@
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Science-Fiction</strong> FSK 12 42Minuten <br>
-                                        Jedi Meister Luke Skywalker hat mit seinem selbstlosen Opfer für neue Hoffnung in der Galaxis gesorgt und dem Widerstand um Generalin Leia Organa, Pilot Poe Dameron, Ex-Sturmtruppler Finn und Nachwuchs-Jedi Rey ist es gelungen, den Obersten Anführer der Ersten Ordnung zu töten.
+                                    Jedi Meister Luke Skywalker hat mit seinem selbstlosen Opfer für neue Hoffnung in der Galaxis gesorgt und dem Widerstand um Generalin Leia Organa, Pilot Poe Dameron, Ex-Sturmtruppler Finn und Nachwuchs-Jedi Rey ist es gelungen, den Obersten Anführer der Ersten Ordnung zu töten.
                                     </td>
                                 </tr>
                                 <tr class="PTableDate">
@@ -175,7 +178,7 @@
                                 </tr>
                                 <tr class="PTableContet">
                                     <td  colspan=5 > <strong>Action</strong> FSK 16 108Minuten <br>
-                                        Der Film beginnt inmitten der Handlung mit einer Actionszene, in der Wade Wilson alias Deadpool gegen schwer bewaffnete Gangster unter der Führung des Mutanten Francis kämpft. In einer Rückblende erzählt Wilson seine Geschichte. Das zynische Ex-Special-Forces-Mitglied Wilson hält sich mit Söldnerjobs über Wasser.
+                                    Wade Wilson lebt gerade noch ein ganz normales Leben bis er eine Krebsdiagnose erhält. In Verzweiflung willigt er einem Laborexperiment ein. Doch nicht nur der Krebs wurde besiegt, durch die Behandlung ist sein Körper entstellt. Damit beginnt sein Rachefeldzug.
                                     </td>
                                 </tr>
                                 <tr class="PTableDate">

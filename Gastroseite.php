@@ -29,7 +29,7 @@
                     <div id = "box" >
                         
                         <img src = "Medien/Bilder/Popcorn.png" alt = "Popcorn" height="230px">
-                        <!-- https://th.bing.com/th/id/R.03c6d84556598f49bdcd6c7915c9f489?rik=5PFWtaAyfDPbHQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fpopcorn%2fpopcorn_PNG31.png&ehk=axmSgoaFSxuSmDz1FwKDBOSj87S4FhXbLvgMoMsgpfI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1 -->
+                        <!-- https://pluspng.com/png-27884.html -->
 
                         </div>  
                     <p id = "beschreibung">
@@ -47,7 +47,7 @@
                     <div id = "box">
                         
                         <img src = "Medien/Bilder/Nachos.png" alt = "Nachos" height="200px" >
-                        <!-- https://th.bing.com/th/id/OIP.1D4MOjx0lJj55J98C9NlxQHaE1?pid=ImgDet&rs=1 -->
+                        <!-- hhttps://webstockreview.net/pict/getfirst -->
                         
                     </div>  
                     <p id = "beschreibung">
@@ -67,8 +67,8 @@
                 <section class = "highlight" >
                     <div id = "box">
                         
-                        <img src = "Medien/Bilder/Softdrinks.png" alt = "Softdrinks" height="200px" >
-                        <!-- // https://th.bing.com/th/id/OIP.FQIxyK3U3HGlck-mn-ySSAHaDm?pid=ImgDet&rs=1 -->
+                        <img src = "Medien/Bilder/Softdrinks2.png" alt = "Softdrinks" height="200px" >
+                        <!--  https://www.hiclipart.com/free-transparent-background-png-clipart-cxkfm/download -->
                         
                     </div>  
                     <p id = "beschreibung">
@@ -85,8 +85,8 @@
                 <section class = "highlight" >
                     <div id = "box">
                         
-                        <img src = "Medien/Bilder/Bier.png" alt = "Bier" height="250px">
-                        <!-- https://th.bing.com/th/id/OIP.FNsRMWdbZHdG_muKOh4dtwAAAA?pid=ImgDet&rs=1 -->
+                        <img src = "Medien/Bilder/Beer6.png" alt = "Bier" height="250px">
+                        <!-- https://www.hiclipart.com/free-transparent-background-png-clipart-phctt/download -->
                         
                     
                     </div>  
