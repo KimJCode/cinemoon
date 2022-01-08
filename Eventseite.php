@@ -30,7 +30,7 @@
                             <p id="paevent1">
                                 Ladies Night bei cinemoon! Genießen Sie eine atemberaubende Nacht unter Frauen mit vergünstigten Wein, Snacks und Ticketpreisen zu den ausgewählten Filmen  
                             </p>
-                            <a class="button" href="Eventseiten/LadiesNightEvent.php">Weitere Infos</a>
+                            <a class="button" href="LadiesNightEvent.php">Weitere Infos</a>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@
                             <p id="paevent2">
                                 Otakus, versammelt euch! Jedes Jahr veranstaltet cinemoon eine Anime Night, mit jeweils 3 Animes pro Nacht. Von Neuerscheinungen bis zu Klassikern findet man bei uns alles in bester Qualität. Damit wir auch eine japanische Stimmung erzeugen, wird nach Möglichkeit auch Merch zur Verfügung gestellt.
                             </p>
-                            <a class="button" href="Eventseiten/AnimeNightEvent.php">Weitere Infos</a>
+                            <a class="button" href="AnimeNightEvent.php">Weitere Infos</a>
                         </div>
                     </div>
                 
@@ -56,7 +56,7 @@
                             <p>
                                 Sie wollen Nostalgie wieder aufleben lassen oder einfach den Kindheitsfilm anschauen, den jeder kennt, außer Sie? Dann haben Sie bei uns die Möglichkeit alte Kindheitsklassiker anzuschauen.
                             </p>
-                            <a class="button" href="Eventseiten/ChildHoodClassics.php">Weitere Infos</a>
+                            <a class="button" href="ChildHoodClassics.php">Weitere Infos</a>
                         </div>
                     </div>
                 </section>  

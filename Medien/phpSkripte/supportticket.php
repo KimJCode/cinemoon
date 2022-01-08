@@ -13,10 +13,11 @@
         </select>
     </p>
     <p class = "special">
-        Ihr Vor- und Nachname: <input type = "text" name = "name" />
+        Ihr Vor- und Nachname: <input type = "text" name = "name">
+        <!-- <label for ="">Max Mustermann</label> --> <!-- Hier nachschauen wieso es nicht klappt mit dem label-->
     </p>
     <p class = "special">
-        Ihre E-Mail: <input type= "text" name = "e-mail" />
+        Ihre E-Mail: <input type= "email" name = "email">
     </p>
     <p class = "special">
         Bitte klicken Sie die Art von Anliegen an, welche zu Ihrer Frage passt: <br>
@@ -34,5 +35,4 @@
         <input type = "submit" value = "Abschicken"> <input type = "reset" value = "Abbrechen">
     </p>
 </form>
-
-<!-- Hier muss jetzt mit den angegebenen Daten selektiert werden an welche E-Mail die Anfrage geschickt werden soll -->
+<!-- fwrite($file, "Kategorie: ", ); Hier muss das noch richtig gemacht werden -->

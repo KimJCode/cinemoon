@@ -1,26 +1,30 @@
-
-section.event{
+section.event {
     display:flex;
     flex-direction: column;
     gap: 2rem;
     font-size: 140%;
 }
-h2{
+
+h2 {
     font-size: 150%;
 }
-a{
+
+a {
     text-decoration: none;
 }
-p{
+
+p {
     hyphens: auto; 
 	text-align: justify
 
 }
-.eventitem{
+
+.eventitem {
     display:flex;
     justify-content: center;
     gap:5%
 }
+
 .seitenelemente{
     display:flex;
     flex-direction: column;
@@ -49,5 +53,3 @@ section.event h2{
     border: 2px solid grey;
     background-color: transparent;
 }
-
-

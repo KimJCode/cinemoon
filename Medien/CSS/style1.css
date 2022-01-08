@@ -1,23 +1,23 @@
 /*Stylesheet Grundgerüst, Header(Navbar, Logo etc.), Body und Footer*/
 
 /* mobile variante auf der alles aufbaut*/
-  html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
+html,body {
+    width: 100%; /* füllt den ganzen Bildschirm aus */
+    height: 100%; /* füllt den ganzen Bildschirm aus */
+    margin: 0px; 
     padding: 0px;
     overflow-x: hidden; /*damit kein weißer Rand oder sonst was entsteht*/
     background-color: rgb(29, 28, 28);
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif; /* Schriftart ist gut lesbar (barrierefreiheit), optisch ansprechend und minimalistisch */
 }
+
 article p {
-    font-size: 150%;
+    font-size: 150%; /* die font-size wird generell auf "%" gesetzt, damit sich die Schriftgröße relativ zur Bildschirmgröße verhält */ 
     color: #a9b5add4;
 }
 
@@ -26,8 +26,8 @@ article h1 {
 }
 
 footer {
-    text-align: center;
-    position: relative;
+    text-align: center; /* setzt den Text immer mittig */
+    position: relative; 
     background-color: rgb(163, 163, 163);
     height: 50px;
     width:100%;
@@ -74,10 +74,12 @@ nav {
     margin: auto;
     align-items: center;
 }
+
 nav a img{
     width:100%;
     height:100%;
 }
+
 .logo{
     width:50%;
     height:50%; 
@@ -94,14 +96,11 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.578),rgba(0, 0, 0, 0.394)),url(../Bilder/Sternenhimmel.jpeg) ;
     background-size: cover;
     background-position: center;
 }
-
-
 
 .currentpage { /*Hintergrundeffekt je nachdem, auf was für einer man ist*/
     color: rgb(255, 255, 255);
@@ -119,14 +118,7 @@ header {
 }
 
 
-
-
-
-
-
-
 /*Desktop Version Anpassung basierend auf der mobilen Variante*/
-
 
 @media only screen and (min-width: 768px) {
 
