@@ -10,3 +10,7 @@ Name: Daniele Amore
 E-Mail: amore.dani02@gmail.com
 Frage: Wieso bin ich so cool?
 --------------------------------
+Name: Daniele Amore
+E-Mail: amore.dani02@gmail.com
+Frage: Weiterer Test
+--------------------------------

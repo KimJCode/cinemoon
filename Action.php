@@ -33,18 +33,19 @@
         </main>
 
         <?php
-            extract($_POST);
+            extract($_POST); //Import variables into the current symbol table from an array
             $file=fopen("supportfile.txt", "a"); // "a" Open for writing only; place the file pointer at the end of the file. If the file does not exist, attempt to create it.
             fwrite($file, "Name: ");
             fwrite($file, $name ."\n");
             fwrite($file, "E-Mail: ");
             fwrite($file, $email ."\n");
+            //Hier sollte noch die Kategorie ausgegeben werden
             fwrite($file, "Frage: ");
             fwrite($file, $question ."\n");
             fwrite($file, "--------------------------------\n");
             fclose($file);
         ?>
-        
+
         <?php
             include("Medien/phpSkripte/footer.php");
         ?>
