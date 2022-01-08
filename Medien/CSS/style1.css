@@ -70,6 +70,7 @@ nav {
     justify-content:center;
     width: 100%;
     gap:1%;
+    padding: 10px 0;
     margin: auto;
     align-items: center;
 }
