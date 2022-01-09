@@ -73,5 +73,5 @@ function findErrors(VorNachname, Email, c, TextareaQuestion){
         errorMessages.push("Bitte geben Sie Ihre Frage an.\n")
     }
 
-    return errorMessagesEmail
+    return errorMessages
 }
