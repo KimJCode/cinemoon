@@ -49,3 +49,7 @@ span {
     font-size: smaller;
     color:white;
 }
+
+.red-message {
+    color:red;
+}
