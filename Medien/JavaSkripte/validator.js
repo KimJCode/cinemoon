@@ -1,12 +1,12 @@
-const form = document.getElementById("form")
-const vorNachname = documentgetElementById("vor-nachname")
-const email = document.getElementById("id-email")
-const checkboxWork = document.getElementById("checkbox-work")
-const checkboxSecurity = document.getElementById("checkbox-security")
-const checkboxCosts = document.getElementById("checkbox-costs")
-const checkboxOthers = document.getElementById("checkbox-others")
-const textareaQuestion = document.getElementById("textarea-question")
-const messageContainer = document.getElementById("message-container")
+var form = document.getElementById("form")
+var vorNachname = document.documentgetElementById("vor-nachname")
+var email = document.getElementById("id-email")
+var checkboxWork = document.getElementById("checkbox-work")
+var checkboxSecurity = document.getElementById("checkbox-security")
+var checkboxCosts = document.getElementById("checkbox-costs")
+var checkboxOthers = document.getElementById("checkbox-others")
+var textareaQuestion = document.getElementById("textarea-question")
+var messageContainer = document.getElementById("message-container")
 
 // Hier wird gewartet bis submit gedrückt wurde
 form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folgendes ein: 
@@ -22,8 +22,9 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
     var c = checkboxCount(CheckboxWork, CheckboxSecurity, CheckboxCosts, CheckboxOthers)
     var errors = findErrors(VorNachname, Email, c, TextareaQuestion)
 
-    //Wenn Fehler gefunden wurden, wird die Variable errors > 0,
+    //Wenn Fehler gefunden wurden, wird errors.length > 0,
     if(errors.length > 0) {
+        s = true
         s.preventDefault()      //Es wird nix weitergeleitet an den Server/Datenbank
         messageContainer.innerText = errors.join(". ")
         messageContainer.classList.add("red-message")
@@ -37,12 +38,15 @@ function checkboxCount(CheckboxWork, CheckboxSecurity, CheckboxCosts, CheckboxOt
     if(CheckboxWork == true) {
         i += 1
     }
+
     if(CheckboxSecurity == true) {
         i += 1
     }
+
     if(CheckboxCosts == true) {
         i += 1
     }
+
     if(CheckboxOthers == true) {
         i += 1
     }
