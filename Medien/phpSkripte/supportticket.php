@@ -38,4 +38,3 @@
 
     </div>
 </form>
-<!-- fwrite($file, "Kategorie: ", ); Hier muss das noch richtig gemacht werden -->
