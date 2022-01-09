@@ -46,3 +46,11 @@ Name:
 E-Mail: amore.dani02@gmail.com
 Frage: Das sollte nicht klappen
 --------------------------------
+Name: Daniele Amore
+E-Mail: 
+Frage: Hallo, dass sollte nicht funktionieren
+--------------------------------
+Name: Daniele Amore
+E-Mail: amore.dani02@gmail.com
+Frage: Ich habe keine Checkbox ausgewählt
+--------------------------------
