@@ -22,21 +22,21 @@ p {
 .eventitem {
     display:flex;
     justify-content: center;
-    gap:5%
+    flex-wrap: wrap;
 }
 
 .seitenelemente{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     gap: 7.5%;
 }
 .eventitem img{
-    max-width: 550px;
+    width: 550px; 
+    display: block; 
     height: auto;
 }
-
 article h1{
     text-align: start;
     margin-bottom: 10px;
@@ -52,4 +52,21 @@ section.event h2{
     color: #a9b5add4;
     border: 2px solid grey;
     background-color: transparent;
+}
+@media only screen and (min-width: 768px) {
+
+    .eventitem {
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .seitenelemente{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        gap: 7.5%;
+    }
 }
