@@ -15,23 +15,35 @@ font-weight: bold;}
 
 /* Film Video */
 div.VideoBox    {padding-bottom: 56.25%;
-            position: relative;}
+                position: relative;}
 
 /* Film Box */
 div.FilmBox     {background-color: rgba(78, 76, 76, 0.361);
-            margin-top: 30px;}
+                margin-top: 30px;}
 
 div.FilmBoxElement {display: table-cell;
                 vertical-align: top;}
 
 .PBild {height: 500px; }
 
+@media screen and (max-width: 479px) {
+    .PBild {height: 500px; }
+
+
+    div.FilmBoxElement {display: table-row;
+                        vertical-align: top;}
+
+
+}
 
 /* Vorstellung Box */
+
+
 div.VorstellungBox {background-color:  rgba(78, 76, 76, 0.361);
                 margin-top:30px;
                 padding-left: 30px;
-                height: 310px;}
+                height: 310px;
+                overflow-x: auto;}
 
 li h1   {font-size: 240%;
     padding-top: 20px;
@@ -77,6 +89,10 @@ span.SK {font-size: 20px;}
 
 
 /* Film Details */
+
+.Spalte1 {width: 180px;}
+.Spalte2 {width: 350px;}
+
 div.TextDetail {background-color: rgba(128, 127, 124, 0.171);
             width: 50%;
             display: table-cell;
@@ -93,3 +109,20 @@ div.BildDetail {width: 50%; display:
             background-color: rgba(137, 43, 226, 0);}
 
 .DBild          {height: 320px;}
+
+@media screen and (max-width: 479px) {
+
+    div.BildText {
+        width: 100%;;
+        display: table-row;
+        vertical-align: top;}
+
+    div.BildDetail {width:100%; display: 
+            table-row; 
+            padding: 30px; 
+            padding-left: 50px; 
+    }
+
+    .DBild          {height: 230px;}
+
+}

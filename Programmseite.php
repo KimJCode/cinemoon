@@ -18,188 +18,142 @@
             include("Medien/phpSkripte/header.php");
         ?>
 
-       <!-- James Bond: No Time To  Die-->
+     
         <main>
             <article>  
-               <h1> Programm </h1>  
-                    <table  class = "PTable" >
-                        <colgroup>
-                            <col style="width: 30%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                        </colgroup>
-                            <tr class="PTableHead">
-                                <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite1.php" > <img src="Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">  </a> </td>
-                                <td colspan=5 > <a href = "Filmseite1.php"> <h1> No Time To Die</h1>  </a>  </td>
-                          </tr>
-                                  <tr class="PTableContet">
-                                      <td  colspan=5 > <strong>Action</strong> FSK 12 164Minuten <br>
+               <h1> Programm </h1> 
+               
+               <!-- James Bond-->
+               <div class="FilmBox">
+                    <div style="width: 45%;" class="FilmBoxElement">
+                        <a href = "Filmseite1.php" >
+                       <img src="Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">
+                        <!--https://www.fotonerd.it/wp-content/uploads/2020/10/fotonerd-no-time-to-die-trailer-2-3.jpg-->
+                        </a>
+                    </div>
 
-                                      Der bekannte Doppelnullagent James Bond genießt sein vorzeitigen Ruhestand auf Jamaika, bis sein alter CIA-Kollege Felix auftaucht und ihn in einem mysteriösen Fall um Hilfe bittet. Die Mission ist einen entführten Wissenschaftler zu retten und die Welt vor einer biologischen Massenvernichtungswaffe zu schützen. </td>
-                                 </tr>
-                                 <tr class="PTableDate">
-                                    <td>Montag</td>
-                                    <td>Dienstag</td>
-                                    <td>Mittwoch</td>
-                                    <td>Donnerstag</td>
-                                    <td>Freitag</td>
-                                </tr>
-                                 <tr class="PTableTime" >
-                                     <td> <a>14:00</a> </td>
-                                     <td> <a>15:00</a> </td>
-                                     <td> <a>14:00</a> </td>
-                                     <td> <a>15:30</a> </td>
-                                     <td> <a>14:00</a> </td>
-                                 </tr>
-                        </table>
+                    <div style="width: 590px;" class="FilmBoxElement">
+                        <ul style="list-style: none;">
+                            <li> <a href = "Filmseite1.php" > <p class="p3"> James Bond: No Time To Do </p> </a> <br> </li>
+                            <li> <h3>USA 2020 / 164 min / FSK 12 / Action </h3> </li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Cary Joji Fukunaga </p></li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Daniel Craig, Rami Malek, Léa Seydoux, Ana de Armas </p></li>
+                            <li> <br></li>
+                            <li> <p class="p2">Der bekannte Doppelnullagent James Bond genießt sein vorzeitigen Ruhestand auf Jamaika, bis sein alter CIA-Kollege Felix auftaucht und ihn in einem mysteriösen Fall um Hilfe bittet. Die Mission ist einen entführten Wissenschaftler zu retten und die Welt vor einer biologischen Massenvernichtungswaffe zu schützen. </p></li>
+                                    <!-- (Quelle: Verleih) -->
+                            
+                        </ul>
+                    </div>
+               </div>
+               
+               <!-- The Great Gatsby-->
+               <div class="FilmBox">
+                    <div style="width: 45%;" class="FilmBoxElement">
+                        <a href = "Filmseite2.php">
+                       <img src="Medien/Bilder/TGB.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">
+                        <!--https://img.reelgood.com/content/movie/11d3fb8b-afc8-484b-a399-18fb9bc25980/poster-780.jpg-->
+                        </a>
+                    </div>
 
-            <!-- The Great Gatsby-->
-                       <table  class="PTable" >
-                        <colgroup>
-                            <col style="width: 30%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                        </colgroup>
-                                <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite2.php" > <img src="Medien/Bilder/TheGreatGatsby.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite2.php"> <h1>The Great Gatsby </h1> </a>  </td>
-                                </tr>
-                                <tr class="PTableContet">
-                                    <td  colspan=5 > <strong>Drama</strong> FSK 12 142Minuten <br>
-                                        Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
-                                        Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
-                                        Im Rausch der 1920er New Yorker Jahre erlebt er ein Abenteuer aus Exzess und Liebe.
-                                    </td>
-                                </tr>
-                                <tr class="PTableDate">
-                                    <td>Montag</td>
-                                    <td>Dienstag</td>
-                                    <td>Mittwoch</td>
-                                    <td>Donnerstag</td>
-                                    <td>Freitag</td>
-                                </tr>
-                                 <tr class="PTableTime" >
-                                     <td> <a>14:00</a></td>
-                                     <td> <a>15:00</a> </td>
-                                     <td> <a>14:00</a> </td>
-                                     <td> <a>15:30</a> </td>
-                                     <td> <a>14:00</a> </td>
-                                 </tr>
-                        </table>
+                    <div style="width: 590px;" class="FilmBoxElement">
+                        <ul style="list-style: none;">
+                            <li> <a href = "Filmseite2.php" > <p class="p3"> The Great Gatsby </p> </a> <br> </li>
+                            <li> <h3>USA 2012 / 142 min / FSK 12 / Drama </h3> </li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Baz Luhrmann </p></li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Leonardo DiCaprio, Tobey Maguire, Carey Mulligan </p></li>
+                            <li> <br></li>
+                            <li> <p class="p2"> Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
+                                                 Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
+                                                Durch Gatsby lernt er die atemberaubende Welt der Schönen und Reichen kennen. 
+                                                Im Rausch der 1920er New Yorker Jahre erlebt er ein Abenteuer aus Exzess und Liebe.</p></li>
+                                    
+                            
+                        </ul>
+                    </div>
+               </div>
+               
+    <!-- Tenet -->
+    <div class="FilmBox">
+                    <div style="width: 45%;" class="FilmBoxElement">
+                        <a href = "Filmseite3.php">
+                       <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">
+                        <!--https://th.bing.com/th/id/OIP.UNMn9DNbPBFYo_M1W56cJQHaLH?pid=ImgDet&rs=1-->
+                        </a>
+                    </div>
 
-         <!-- Tenet-->
-                        <table class = "PTable">
-                            <colgroup>
-                            <col style="width: 30%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            </colgroup>
-                                <tr class="PTableHead">
-                                    <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite3.php" > <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">  </a> </td>
-                                    <td colspan=5 > <a href = "Filmseite3.php"> <h1>Tenet </h1> </a>  </td>
-                                </tr>
-                                <tr class="PTableContet">
-                                    <td  colspan=5 > <strong>Action</strong> FSK 12 150Minuten<br>
-                                    In Tenet spielt John David Washington einen Agenten, der die ganze Welt vor dem Untergang retten muss.
-                                        Auf seiner Rettungsmission trifft er auf die Welt der internationalen Geheimdienste, doch das entscheidende ist, dass sich durch mysteriöse Technologie die Gesetzte der Zeit anscheinend manipuliert werden können.
-                                    </td>
-                                </tr>
-                                <tr class="PTableDate">
-                                    <td>Montag</td>
-                                    <td>Dienstag</td>
-                                    <td>Mittwoch</td>
-                                    <td>Donnerstag</td>
-                                    <td>Freitag</td>
-                                </tr>
-                                <tr class="PTableTime" >
-                                    <td> <a>14:00</a></td>
-                                    <td> <a>15:00</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                    <td> <a>15:30</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                </tr>
-                        </table>
+                    <div style="width: 590px;" class="FilmBoxElement">
+                        <ul style="list-style: none;">
+                            <li> <a href = "Filmseite3.php" > <p class="p3"> Tenet </p> </a> <br> </li>
+                            <li> <h3>USA 2020 / 150 min / FSK 12 / Action </h3> </li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Christopher Nolan </p></li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span>  John David Washington, Robert Pattinson, Aaron Taylor-Johnson </p></li>
+                            <li> <br></li>
+                            <li> <p class="p2">In Christopher Nolans neuen Action-Thriller "Tenet" spielt John David Washington einen Agenten, der die ganze Welt vor dem Untergang retten muss.
+                                               Auf seiner Rettungsmission trifft er auf die schmutzige Welt der internationalen Geheimdienste, doch das entscheidende ist, dass sich durch mysteriöse Technologie die Gesetzte der Zeit anscheinend manipuliert werden können. </p></li>
+                                    <!-- (Quelle: Verleih) -->
+                            
+                        </ul>
+                    </div>
+               </div>
+       <!-- Starwars-->
+       <div class="FilmBox">
+                    <div style="width: 45%;" class="FilmBoxElement">
+                        <a href = "Filmseite4.php" >
+                       <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
+                        <!--https://image.tmdb.org/t/p/original/7uJYadq29ZfZojh8YycsvQbY9y5.jpg-->
+                        </a>
+                    </div>
 
-        <!-- Starwars: Der Aufstieg Skywalkers-->
-                        <table  class="PTable" >
-                            <colgroup>
-                            <col style="width: 30%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            </colgroup>
-                                <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite4.php" > <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Der Aufstieg Skywalkers" title="No Time To Die">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite4.php"> <h1>Starwars: Der Aufstieg Skywalkers</h1> </a>  </td>
-                                </tr>
-                                <tr class="PTableContet">
-                                    <td  colspan=5 > <strong>Science-Fiction</strong> FSK 12 42Minuten <br>
-                                    Jedi Meister Luke Skywalker hat mit seinem selbstlosen Opfer für neue Hoffnung in der Galaxis gesorgt und dem Widerstand um Generalin Leia Organa, Pilot Poe Dameron, Ex-Sturmtruppler Finn und Nachwuchs-Jedi Rey ist es gelungen, den Obersten Anführer der Ersten Ordnung zu töten.
-                                    </td>
-                                </tr>
-                                <tr class="PTableDate">
-                                    <td>Montag</td>
-                                    <td>Dienstag</td>
-                                    <td>Mittwoch</td>
-                                    <td>Donnerstag</td>
-                                    <td>Freitag</td>
-                                </tr>
-                                <tr class="PTableTime" >
-                                    <td> <a>14:00</a></td>
-                                    <td> <a>15:00</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                    <td> <a>15:30</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                </tr>
-                        </table>
-        <!-- Deadpool-->
-                        <table  class="PTable" >
-                            <colgroup>
-                            <col style="width: 30%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            <col style="width: 14%">
-                            </colgroup>
-                                <tr class="PTableHead">
-                                        <td rowspan=4 style="padding-left: 0;" > <a href = "Filmseite5.php" > <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">  </a> </td>
-                                        <td colspan=5 > <a href = "Filmseite5.php"> <h1> Deadpool</h1> </a>  </td>
-                                </tr>
-                                <tr class="PTableContet">
-                                    <td  colspan=5 > <strong>Action</strong> FSK 16 108Minuten <br>
-                                    Wade Wilson lebt gerade noch ein ganz normales Leben bis er eine Krebsdiagnose erhält. In Verzweiflung willigt er einem Laborexperiment ein. Doch nicht nur der Krebs wurde besiegt, durch die Behandlung ist sein Körper entstellt. Damit beginnt sein Rachefeldzug.
-                                    </td>
-                                </tr>
-                                <tr class="PTableDate">
-                                    <td>Montag</td>
-                                    <td>Dienstag</td>
-                                    <td>Mittwoch</td>
-                                    <td>Donnerstag</td>
-                                    <td>Freitag</td>
-                                </tr>
-                                <tr class="PTableTime" >
-                                    <td> <a>14:00</a></td>
-                                    <td> <a>15:00</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                    <td> <a>15:30</a> </td>
-                                    <td> <a>14:00</a> </td>
-                                </tr>
-                        </table>                                      
-                    </article>
+                    <div style="width: 590px;" class="FilmBoxElement">
+                        <ul style="list-style: none;">
+                            <li> <a href = "Filmseite4.php" > <p class="p3"> Starwars: Der Aufstieg Skywalkers </p> </a> <br> </li>
+                            <li> <h3>USA 2019 / 142 min / FSK 12 / Science-Fiction </h3> </li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> J.J. Abrams </p></li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Daisy Ridley, Adam Driver, John Boyega, Oscar Isaac </p></li>
+                            <li> <br></li>
+                            <li> <p class="p2">Jedi-Meister Luke Skywalker hat mit seinem selbstlosen Opfer für neue Hoffnung in der Galaxis gesorgt und dem Widerstand um Generalin Leia Organa, Pilot Poe Dameron, Ex-Sturmtruppler Finn und Nachwuchs-Jedi Rey ist es gelungen, den Obersten Anführer der Ersten Ordnung zu töten.  </p></li>
+                                    <!-- (Quelle: Verleih) -->
+                            
+                        </ul>
+                    </div>
+               </div>
+        
+        <!-- Deadpool -->
+        <div class="FilmBox">
+                    <div style="width: 45%;" class="FilmBoxElement">
+                    <a href = "Filmseite5.php">
+                       <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">
+                        <!--https://th.bing.com/th/id/R.67e57b705ff2d2ee55acc8ae16829071?rik=HylFVmMMXvwk8A&riu=http%3a%2f%2fwww.bt66.org%2fUploads%2fvod%2fk%2fkHPKh1.jpg&ehk=nudPfUCgSbqe8zPgeNS%2bEbEKh8l8aKatgHBkrR%2b6%2bMg%3d&risl=&pid=ImgRaw&r=0-->
+                    </a>
+                    </div>
+
+                    <div style="width: 590px;" class="FilmBoxElement">
+                        <ul style="list-style: none;">
+                            <li> <a href = "Filmseite5.php" > <p class="p3"> Deadpool </p> </a> <br> </li>
+                            <li> <h3>USA 2016 / 108 min / FSK 16 / Action </h3> </li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Tim Müller </p></li>
+                            <li> <br></li>
+                            <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Ryan Reynolds, Morena Baccarin, Ed Skrein, </p></li>
+                            <li> <br></li>
+                            <li> <p class="p2">Der Protagonist Wade Wilson lebt gerade noch ein ganz normales Leben bis er eine Krebsdiagnose erhält. In Verzweiflung willigt er einem skrupellosen Laborexperiment ein, um den Krebs zu besiegen. Doch nicht nur der Krebs wurde besiegt, durch die Behandlung ist sein Körper entstellt. Damit beginnt sein persönlicher Rachefeldzug. </p></li>
+                                  
+                            
+                        </ul>
+                    </div>
+               </div>
+               <br>
+               
+       </article>
         </main>
-
         <?php
             include("Medien/phpSkripte/footer.php");
         ?>
