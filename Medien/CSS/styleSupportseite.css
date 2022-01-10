@@ -38,7 +38,7 @@ p{
 }
 
 .accordionitem:target .antwort{
-    max-height: 50rem;
+    max-height: 100rem;
 }
 
 #userQuestion {
