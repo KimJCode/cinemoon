@@ -25,7 +25,7 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
     //Wenn Fehler gefunden wurden, wird errors.length > 0,
     if(errors.length > 0) {
         s.preventDefault()      //Es wird nix weitergeleitet an den Server/Datenbank
-        messageContainer.innerText = errors.join(". ")
+        messageContainer.innerText = errors.join(" ")
         messageContainer.classList.add("red-message")
     }
 })
@@ -34,19 +34,19 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
 function checkboxCount(CheckboxWork, CheckboxSecurity, CheckboxCosts, CheckboxOthers) {
     let i = 0 
 
-    if(CheckboxWork == "work") {
+    if(CheckboxWork == "1") {
         i += 1
     }
 
-    if(CheckboxSecurity == "security") {
+    if(CheckboxSecurity == "2") {
         i += 1
     }
 
-    if(CheckboxCosts == "costs") {
+    if(CheckboxCosts == "3") {
         i += 1
     }
 
-    if(CheckboxOthers == "others") {
+    if(CheckboxOthers == "4") {
         i += 1
     }
     
@@ -66,6 +66,8 @@ function findErrors(VorNachname, Email, c, TextareaQuestion){
         errorMessages.push("Bitte geben Sie eine E-Mail an.\n") //Hier wird dem Array folgende Fehlermeldung übergeben
     }
 
+    //Hier könnte man noch nach einem "@" in der E-Mail suchen
+
     //Checkboxen validieren: (Hier wird geschaut das mindestens eine Box angeklickt wurde)
     if(c == 0) {
         errorMessages.push("Bitte wählen Sie mindestens eine Kategorie aus.\n")
@@ -76,5 +78,6 @@ function findErrors(VorNachname, Email, c, TextareaQuestion){
         errorMessages.push("Bitte geben Sie Ihre Frage an.\n")
     }
 
+    //Hier könnte man noch einen Zeitbuffer machen
     return errorMessages
 }
