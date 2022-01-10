@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleSupportseite.css">
-        <script type = "text/javascript" src = "Medien/JavaSkripte/validator.js"></script>
+        <script type = "text/javascript" src = "Medien/JavaSkripte/validator.js" defer></script> <!-- Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating. -->
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
@@ -63,7 +63,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="accordionitem" id=frage5> <!-- Das Margin wurde weggenommen, damit wenn man die letzte Frage aufklappt kein weißer Rand über dem Footer entsteht bei zu kleinen Monitoren -->
+                    <div class="accordionitem" id=frage5>
                         <a class="fragetitel" href=#frage5>Wie barrierefrei ist cinemoon?</a>
                         <div class="antwort">
                             <p>
