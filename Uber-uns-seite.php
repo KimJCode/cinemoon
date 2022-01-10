@@ -16,7 +16,6 @@
         <?php
             include("Medien/phpSkripte/header.php");
         ?>
-
         <main>
             <article>
                <h1> Über uns </h1>
@@ -75,10 +74,8 @@
         </div>
         </article>
     </main>
-
         <?php
             include("Medien/phpSkripte/footer.php");
         ?>
-        
     </body>
 </html>

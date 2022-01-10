@@ -16,6 +16,11 @@ html,body {
     font-family: sans-serif; /* Schriftart ist gut lesbar (barrierefreiheit), optisch ansprechend und minimalistisch */
 }
 
+article{
+    margin:auto; 
+    max-width: 90%;
+}
+
 article p {
     font-size: 150%; /* die font-size wird generell auf "%" gesetzt, damit sich die Schriftgröße relativ zur Bildschirmgröße verhält */ 
     color: #a9b5add4;
@@ -70,7 +75,7 @@ nav {
     justify-content:center;
     width: 100%;
     gap:1%;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: auto;
     align-items: center;
 }
@@ -245,6 +250,10 @@ header {
         0 0 42px rgb(197, 233, 205),
         0 0 82px rgb(197, 233, 205),
         0 0 92px rgb(197, 233, 205),
+        0 0 102px rgb(197, 233, 205),
+        0 0 151px rgb(197, 233, 205),
+        0 0 200px rgb(197, 233, 205),
+        0 0 350px rgb(197, 233, 205);
     }
 }
 
