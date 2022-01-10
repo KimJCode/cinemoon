@@ -1,5 +1,5 @@
 var form = document.getElementById("form")
-var vorNachname = document.documentgetElementById("vor-nachname")
+var vorNachname = document.getElementById("vor-nachname")
 var email = document.getElementById("id-email")
 var checkboxWork = document.getElementById("checkbox-work")
 var checkboxSecurity = document.getElementById("checkbox-security")
@@ -24,7 +24,6 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
 
     //Wenn Fehler gefunden wurden, wird errors.length > 0,
     if(errors.length > 0) {
-        s = true
         s.preventDefault()      //Es wird nix weitergeleitet an den Server/Datenbank
         messageContainer.innerText = errors.join(". ")
         messageContainer.classList.add("red-message")
@@ -35,19 +34,19 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
 function checkboxCount(CheckboxWork, CheckboxSecurity, CheckboxCosts, CheckboxOthers) {
     let i = 0 
 
-    if(CheckboxWork == true) {
+    if(CheckboxWork == "work") {
         i += 1
     }
 
-    if(CheckboxSecurity == true) {
+    if(CheckboxSecurity == "security") {
         i += 1
     }
 
-    if(CheckboxCosts == true) {
+    if(CheckboxCosts == "costs") {
         i += 1
     }
 
-    if(CheckboxOthers == true) {
+    if(CheckboxOthers == "others") {
         i += 1
     }
     
