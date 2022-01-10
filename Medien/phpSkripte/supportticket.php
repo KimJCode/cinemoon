@@ -21,10 +21,10 @@
     </p>
     <p class = "special">
         Bitte klicken Sie die Art von Anliegen an, welche zu Ihrer Frage passt: <br>
-        <span>Arbeit</span> <input id = "checkbox-work" type = "checkbox" name = "work"> <br>
-        <span>Sicherheit</span> <input id = "checkbox-security" type = "checkbox" name = "security"> <br>
-        <span>Kosten</span> <input id = "checkbox-costs" type = "checkbox" name = "costs"> <br>
-        <span>Sonstiges</span> <input id = "checkbox-others" type = "checkbox" name = "others"> <br>
+        <span>Arbeit</span> <input id = "checkbox-work" value = "work" type = "checkbox" name = "work"> <br>
+        <span>Sicherheit</span> <input id = "checkbox-security" value = "security" type = "checkbox" name = "security"> <br>
+        <span>Kosten</span> <input id = "checkbox-costs" value = "costs" type = "checkbox" name = "costs"> <br>
+        <span>Sonstiges</span> <input id = "checkbox-others" value = "others" type = "checkbox" name = "others"> <br>
     </p>
     <p class = "special">
         <!-- Hier sollte man noch ein limit an Wörtern festsetzen -->
