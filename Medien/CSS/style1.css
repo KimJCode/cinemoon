@@ -28,7 +28,6 @@ article p {
 
 article h1 {
     font-size: 10vw; /*Laut Stackoverflow verändert font-size sich nicht bei %, ist dann auch nicht responsiv, aber mit vw schon 1vw = 1% of viewport width*/
-    padding-top: 1%;
 }
 
 footer {
@@ -137,8 +136,6 @@ header {
         padding-top: 80px;
         
     }
-    
-    
     
     footer ul li a {
         text-decoration: none;

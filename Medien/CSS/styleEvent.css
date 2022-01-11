@@ -22,23 +22,20 @@ p {
 .eventitem {
     display:flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Wenn nicht genug Weite, Elemente untereinander stapeln*/
 }
 
 .seitenelemente{
-    display:flex;
-    flex-direction: column;
+    display:flex; 
+    flex-direction: column; /*damit Seitenelemente untereinander bleiben*/
     justify-content: center;
     align-items:center;
-    gap: 7.5%;
+    gap: 7.5%; /* Abstand Y*/
 }
-.eventitem img{
-    width: 550px; 
-    display: block; 
-    height: auto;
-}
+
+
 article h1{
-    text-align: start;
+    text-align: start; /*Anfang/Links des Articles anfangen*/
     margin-bottom: 10px;
 }
 
@@ -46,27 +43,40 @@ section.event h2{
     margin-bottom: 10px;
 }
 
-.eventitem .seitenelemente .button{
+.eventitem .seitenelemente .button{ /*Style Button*/
     font-size: 110%;
     padding: 2%;
     color: #a9b5add4;
     border: 2px solid grey;
     background-color: transparent;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) { /*Weil ich hier statt CSS Grid CSS Flex damals benutzt habe, passt sich das Bild und die Box nicht responsiv an das Bild an, weshalb ich es versucht habe mit einer weiteren Media Quary zu fixen ab für die mobilen Versionen*/
+    .eventitem img{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;  
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px) { /*Desktop Variante*/
 
     .eventitem {
         display:flex;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap; /*Bei Desktopvariante zwingen nicht alles untereinander zu stapeln*/
         justify-content: center;
         gap: 5%;
     }
-    
+    .eventitem img{
+        width: 550px; 
+        display: block; 
+        height: auto;
+    }
     .seitenelemente{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items:flex-start;
+        align-items:flex-start; /*Damit die Seitenelemente neben dem Bild sind*/
         gap: 7.5%;
     }
 }
