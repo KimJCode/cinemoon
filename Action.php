@@ -39,7 +39,31 @@
             fwrite($file, $name ."\n");
             fwrite($file, "E-Mail: ");
             fwrite($file, $email ."\n");
-            //Hier sollte noch die Kategorie ausgegeben werden
+            fwrite($file, "Kategorien: " ."\n");
+            if($work == true){
+                fwrite($file, "Arbeit" ."\n");
+            }
+            if($work == "noWork"){
+                fwrite($file, "");
+            }
+            if($security == true){
+                fwrite($file, "Sicherheit" ."\n");
+            }
+            if($security == "noSecurity"){
+                fwrite($file, "");
+            }
+            if($costs == true){
+                fwrite($file, "Kosten" ."\n");
+            }
+            if($costs == "noCosts"){
+                fwrite($file, "");
+            }
+            if($others == true){
+                fwrite($file, "Sonstiges" ."\n");
+            }
+            if($others == "noOthers"){
+                fwrite($file, "");
+            }
             fwrite($file, "Frage: ");
             fwrite($file, $question ."\n");
             fwrite($file, "--------------------------------\n");
