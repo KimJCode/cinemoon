@@ -1,17 +1,24 @@
+article{
+  margin:auto;
+  max-width: 90%;
+} 
 .Gridcontainer {
-    display: grid; 
-    width: 1200px;
-    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr));
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    gap: 10px 20px; 
-    grid-template-areas: 
-      ". ."
-      ". ."
-      ". .";
-    align-items: center;
-    margin-top: 1%;
+  display: grid; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr; 
+  gap: 10px 20px; 
+  grid-template-areas: 
+    "eins" 
+    "zwei"
+    "vier"
+    "drei"
+    "fünf" 
+    "sechs"
+    "acht"
+    "sieben";
+  align-items: center;
+  margin-top: 1%;
 }
-
 p{
   hyphens: auto; 
 	text-align: justify;
@@ -19,4 +26,59 @@ p{
 .bildcontainer img{
   width: 100%;
   height: 100%;
+}
+.bildcontainer{
+  align-self: stretch;
+}
+#eins{
+  grid-area: eins;
+}
+#zwei{
+  grid-area: zwei;
+}
+#drei{
+  grid-area: drei;
+}
+#vier{
+  grid-area: vier;
+}
+#fünf{
+  grid-area: fünf;
+}
+#sechs{
+  grid-area: sechs;
+}
+#sieben{
+  grid-area: sieben;
+}
+
+#gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:100%;
+  width:100%;
+}
+#acht{
+  grid-area: acht;
+  align-self:stretch; 
+}
+@media only screen and (min-width: 1200px){
+  article{
+    max-width: 1200px;
+    min-height: 100vh;
+  }
+  .Gridcontainer {
+    display: grid; 
+    width: 1200px;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 10px 20px; 
+    grid-template-areas: 
+      "eins zwei"
+      "drei vier"
+      "fünf sechs"
+      "sieben acht";
+    align-items: center;
+    margin-top: 1%;
+  }
 }
