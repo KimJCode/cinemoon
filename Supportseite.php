@@ -9,14 +9,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleSupportseite.css">
-        <script type = "text/javascript" src = "Medien/JavaSkripte/validator.js" defer></script> <!-- Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating. -->
+        <script src = "Medien/JavaSkripte/validator.js" defer></script> <!-- Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating. -->
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
     <body>
     <?php
-            include("Medien/phpSkripte/header.php");
-        ?>
+        include("Medien/phpSkripte/header.php");
+    ?>
 
         <main>
             <article>
@@ -76,11 +76,9 @@
                 <div class = "accordionitem" id = "userQuestion">   <!-- Hier soll man eine E-Mail verschicken können (man soll hier ein Formular ausfüllen können) -->
                     <a class = "fragetitel" href = #userQuestion> Sie haben eine andere Frage? </a>
                     <div class = "antwort">
-                        <p>
-                           <?php
-                                include("Medien/phpSkripte/supportticket.php")
-                            ?>
-                        </p>
+                        <?php
+                            include("Medien/phpSkripte/supportticket.php")
+                        ?>
                         <br>
                     </div>
                 </div>

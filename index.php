@@ -26,7 +26,6 @@
                     <a href = "Filmseite3.php" title = "Tenet">
                         <img class = "middlepicture" src = "Medien/Bilder/Tenet.jpg" title = "Bild für die AnimeNight">
                     </a>
-                    <!-- Der Grund für zwei Boxen ist, dass wenn man die Seite minimiert immer mindestens zwei Bilder nebeneinander sind -->
                     <a href = "Filmseite4.php" title = "Starwars: Der Aufstieg der Skywalker">
                         <img class = "rightpicture" src = "Medien/Bilder/Starwars.jpg" title = "Titelbild für Starwars">
                     </a>

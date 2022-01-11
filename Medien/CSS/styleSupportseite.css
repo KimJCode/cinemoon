@@ -38,7 +38,7 @@ p{
 }
 
 .accordionitem:target .antwort{
-    max-height: 50rem;
+    max-height: 100rem;
 }
 
 #userQuestion {
@@ -52,4 +52,8 @@ span {
 
 .red-message {
     color:red;
+}
+
+.red-box {
+    border: 2px solid red;
 }

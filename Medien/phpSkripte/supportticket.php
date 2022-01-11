@@ -5,7 +5,7 @@
 
 <form id = "form" action = "Action.php" method = "post"> <!-- Bei method Post sieht man anders als bei "GET" die Parameter nicht in der URL -->
     <p class = "special">
-        Anrede:
+        Anrede: <br>
         <select name = "anrede"> 
             <option id = "anrede-herr">Herr</option>
             <option id = "anrede-frau">Frau</option>
@@ -13,18 +13,25 @@
         </select>
     </p>
     <p class = "special">
-        Ihr Vor- und Nachname: <input id = "vor-nachname" type = "text" name = "name">
+        Ihr Vor- und Nachname: <br><input id = "vor-nachname" type = "text" name = "name">
         <!-- <label for ="">Max Mustermann</label> --> <!-- Hier nachschauen wieso es nicht klappt mit dem label-->
     </p>
     <p class = "special">
-        Ihre E-Mail: <input id = "id-email" type= "email" name = "email">
+        Ihre E-Mail: <br><input id = "id-email" type= "email" name = "email">
     </p>
     <p class = "special">
-        Bitte klicken Sie die Art von Anliegen an, welche zu Ihrer Frage passt: <br>
-        <span>Arbeit</span> <input id = "checkbox-work" value = "work" type = "checkbox" name = "work"> <br>
-        <span>Sicherheit</span> <input id = "checkbox-security" value = "security" type = "checkbox" name = "security"> <br>
-        <span>Kosten</span> <input id = "checkbox-costs" value = "costs" type = "checkbox" name = "costs"> <br>
-        <span>Sonstiges</span> <input id = "checkbox-others" value = "others" type = "checkbox" name = "others"> <br>
+        Bitte geben Sie mindestens eine Kategorie an: <br>
+        <input name = "work" value = "noWork" type = "hidden">
+        <span>Arbeit</span> <input id = "checkbox-work"  name = "work" type = "checkbox"> <br>
+
+        <input name = "security" value = "noSecurity" type = "hidden">
+        <span>Sicherheit</span> <input id = "checkbox-security"  name = "security" type = "checkbox"> <br>
+
+        <input name = "costs" value = "noCosts" type = "hidden">
+        <span>Kosten</span> <input id = "checkbox-costs"   name = "costs" type = "checkbox"> <br>
+
+        <input name = "others" value = "noOthers" type = "hidden">
+        <span>Sonstiges</span> <input id = "checkbox-others"   name = "others" type = "checkbox"> <br>
     </p>
     <p class = "special">
         <!-- Hier sollte man noch ein limit an Wörtern festsetzen -->
@@ -35,6 +42,6 @@
         <input type = "submit" value = "Abschicken"> <input type = "reset" value = "Abbrechen">
     </p>
     <div id = "message-container"> <!-- Hier kommt die Fehlermeldung rein falls man zum Beispiel das "@" bei der E-Mail vergessen hat --> 
-
+    
     </div>
 </form>
