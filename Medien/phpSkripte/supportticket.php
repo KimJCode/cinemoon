@@ -4,7 +4,6 @@
 </p>
 
 <form id = "form" action = "Action.php" method = "post"> <!-- Bei method Post sieht man anders als bei "GET" die Parameter nicht in der URL -->
-    <div>
     <p class = "special">
         Anrede: <br>
         <select name = "anrede"> 
@@ -22,10 +21,17 @@
     </p>
     <p class = "special">
         Bitte geben Sie mindestens eine Kategorie an: <br>
-        <span>Arbeit</span> <input id = "checkbox-work" value = "1" name = "work" type = "checkbox"> <br>
-        <span>Sicherheit</span> <input id = "checkbox-security" value = "2" name = "security" type = "checkbox"> <br>
-        <span>Kosten</span> <input id = "checkbox-costs"  value = "3" name = "costs" type = "checkbox"> <br>
-        <span>Sonstiges</span> <input id = "checkbox-others"  value = "4" name = "others" type = "checkbox"> <br>
+        <input name = "work" value = "noWork" type = "hidden">
+        <span>Arbeit</span> <input id = "checkbox-work"  name = "work" type = "checkbox"> <br>
+
+        <input name = "security" value = "noSecurity" type = "hidden">
+        <span>Sicherheit</span> <input id = "checkbox-security"  name = "security" type = "checkbox"> <br>
+
+        <input name = "costs" value = "noCosts" type = "hidden">
+        <span>Kosten</span> <input id = "checkbox-costs"   name = "costs" type = "checkbox"> <br>
+
+        <input name = "others" value = "noOthers" type = "hidden">
+        <span>Sonstiges</span> <input id = "checkbox-others"   name = "others" type = "checkbox"> <br>
     </p>
     <p class = "special">
         <!-- Hier sollte man noch ein limit an Wörtern festsetzen -->
@@ -36,7 +42,6 @@
         <input type = "submit" value = "Abschicken"> <input type = "reset" value = "Abbrechen">
     </p>
     <div id = "message-container"> <!-- Hier kommt die Fehlermeldung rein falls man zum Beispiel das "@" bei der E-Mail vergessen hat --> 
-
+    
     </div>
-</div>
 </form>

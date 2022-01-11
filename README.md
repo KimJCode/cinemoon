@@ -16,17 +16,5 @@ JavaScript / PHP:
 - Eventuell JavaScript nutzen für Animationen?
 - Support Ticket ❗
 
-Validierte Dateien:
-CSS:
-- style1
-- styleDatenschutz
-- styleEvent
-- styleFilmseite
-- styleGastro
-- styleImpressum
-- styleIndex
-- styleKontakt
-- styleProgramm
-- styleSupport
-- styleUeberUnsSeite
-HTML/PHP:
+Seiten die noch Validierungsfehler haben:
+- Über-uns-seite.php

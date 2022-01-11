@@ -53,3 +53,7 @@ span {
 .red-message {
     color:red;
 }
+
+.red-box {
+    border: 2px solid red;
+}
