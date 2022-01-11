@@ -43,8 +43,8 @@
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;">Mit: </span> Leonardo DiCaprio, Tobey Maguire, Carey Mulligan </p></li>
                             <li> <br></li>
-                            <li> <p class="p2">>Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
-                                                 Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
+                            <li> <p class="p2">Der angehende Aktienhändler Nick Carraway zieht in ein kleines beschauliches Haus auf Long Island.
+                                                Schnell kommt er in Kontakt mit seinem mythenhaften Nachbar Jay Gatsby. 
                                                 Durch Gatsby lernt er die atemberaubende Welt der Schönen und Reichen kennen. 
                                                 Im Rausch der 1920er New Yorker Jahre erlebt er ein Abenteuer aus Exzess und Liebe.</p></li>
                                     

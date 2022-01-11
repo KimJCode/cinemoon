@@ -27,7 +27,7 @@
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
                         <a href = "Filmseite1.php" >
-                       <img src="Medien/Bilder/NoTimeToDie.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">
+                       <img src="Medien/Bilder/NoTimeToDie2.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">
                         <!--https://www.fotonerd.it/wp-content/uploads/2020/10/fotonerd-no-time-to-die-trailer-2-3.jpg-->
                         </a>
                     </div>
