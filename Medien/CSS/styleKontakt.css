@@ -28,8 +28,7 @@ div.highlight p#beschreibung {
     padding-right: 35px;
     background: #2efef700;
 }
-<<<<<<< HEAD
-section#box {
+/*section#box {
     display:flex;
     justify-content: start;
     gap: 25%;
@@ -46,8 +45,8 @@ span.Ueberschrift{
 section#box p{
     font-size: 1.1rem;
     color: rgb(233, 233, 233);
-}
-/*.das-Element2 {
+}*/
+.das-Element2 {
     margin: 35px;
     padding: 6px;
     background: #2efef700;
@@ -55,14 +54,12 @@ section#box p{
     color: rgb(223, 223, 223);
     font-size: 20px;
 }
-=======
 
->>>>>>> 5628fae6d7b0b37c5d0e2c043cc4248ccb43ed77
 
 .Unter-Ueberschrift {
     color:rgba(93, 255, 255, 0.527);
     padding-bottom: 15px;
-}*/
+}
 
 .aussenrum {
     text-align: center;
