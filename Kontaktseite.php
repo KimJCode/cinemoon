@@ -6,9 +6,9 @@
         <meta name = "description" content = "cinemoon-Kontaktseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Kontakt, Kontakte">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleKontakt.css">
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleKontakt.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
 
@@ -60,20 +60,18 @@
                  <br><br>
                  <h2> Karriere </h2>
                <section id = "box">
-                   <div class="das-Element2" style="width: 350px" >
-                    <p class = "Unter-Ueberschrift"> Offene Stellen: </p> 
+                   <p id="karriere">
+                        <span class="Ueberschrift">Offnene Stellen:</span> <br>
                         - Hilfskoch (m/w/d) <br>
                         - Filmtechnicker (m/w/d) <br>
                         - Servicekraft (m/w/d) <br>
-                        - Kassierkraft (m/w/d) <br>                        
-                    </div>
-                    <div class="das-Element2" style="width: 450px">
-                        <p class = "Unter-Ueberschrift"> Bewerben bitte bei Neils Heuer </p> 
-                            ➜ Email: cinemoon.Karriere@gmail.com <br>
-                            ➜ Digatle Bewerbungen bitte als PDF-Datei  <br>
-                    </div>
+                        - Kassierkraft (m/w/d)
+                   <p>
+                        <span class="Ueberschrift">Bewerben bitte bei Neils Heuer:</span> <br>
+                        - Email: cinemoon.Karriere@gmail.com <br>
+                        - Digatle Bewerbungen bitte als PDF-Datei <br>
+                   </p>
                 </section>
-                <br><br>
             </article>
         </main>
 

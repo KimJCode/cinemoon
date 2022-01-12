@@ -1,7 +1,4 @@
-article{
-  margin:auto;
-  max-width: 90%;
-} 
+
 .Gridcontainer {
   display: grid; 
   grid-template-columns: 1fr;
@@ -52,9 +49,8 @@ p{
   grid-area: sieben;
 }
 
-#gmap_canvas{
+.map_canvas{
   overflow:hidden;
-  background:none!important;
   height:100%;
   width:100%;
 }
@@ -63,10 +59,6 @@ p{
   align-self:stretch; 
 }
 @media only screen and (min-width: 1200px){
-  article{
-    max-width: 1200px;
-    min-height: 100vh;
-  }
   .Gridcontainer {
     display: grid; 
     width: 1200px;

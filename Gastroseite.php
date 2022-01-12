@@ -19,7 +19,7 @@
         ?>
 
         <main>
-            <article style="width: 1000px">
+            <article>
                 <h1 id = "action">
                     Aktion: Bis zum 31.01.2021 auf alles 10% Rabatt!
                 </h1>
@@ -32,13 +32,12 @@
                         <img src = "Medien/Bilder/Popcorn.png" alt = "Popcorn" height="230px">
                         <!-- https://pluspng.com/png-27884.html -->
 
-                        </div>  
-                    <p id = "beschreibung">
+                    </div>  
+                    <p>
                         süß / salzig <br>
                         Klein: 4 &#8364;<br>
                         Mittel: 6 &#8364; <br>
-                        Groß: 8 &#8364; <br>
-                        <br><br>
+                        Groß: 8 &#8364;
                     </p>  
                 </section>
                 
@@ -51,14 +50,11 @@
                         <!-- hhttps://webstockreview.net/pict/getfirst -->
                         
                     </div>  
-                    <p id = "beschreibung">
-                         <br>
+                    <p>
                         3 Saucen <br>
                         Klein: 4 &#8364;<br>
                         Mittel: 6 &#8364;<br>
-                        Groß: 8 &#8364;<br>
-                        <br> <br>
-
+                        Groß: 8 &#8364;
                     </p>  
                 </section>
                 
@@ -72,12 +68,10 @@
                         <!--  https://www.hiclipart.com/free-transparent-background-png-clipart-cxkfm/download -->
                         
                     </div>  
-                    <p id = "beschreibung">
-                       
+                    <p>
                         klein: (0,2 l) 3,5 &#8364; <br>
                         mittel: (0,4 l) 6 &#8364; <br>
-                        Groß:  (0,6 l) 8 &#8364;<br>
-                        <br><br><br>
+                        Groß:  (0,6 l) 8 &#8364;
 
                     </p>  
                 </section>
@@ -91,13 +85,12 @@
                         
                     
                     </div>  
-                    <p id = "beschreibung">
+                    <p>
                         Klein: 4 &#8364; <br>
                         Mittel: 6 &#8364; <br>
-                        Groß: 8 &#8364; <br>
+                        Groß: 8 &#8364;
                     </p>  
                 </section>
-                <br><br><br><br><br>
             </article>
         </main>
 
