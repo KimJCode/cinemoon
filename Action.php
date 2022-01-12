@@ -21,13 +21,39 @@
             <article>
                 <h1> Vielen Dank! </h1>
                 <p>
-                    Hallo <span><?php echo htmlspecialchars($_POST['anrede']); ?> <?php echo htmlspecialchars($_POST['name']); ?></span>, Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>
+                    Hallo 
+                    <span>
+                        <?php 
+                            if($_POST['salutation'] == "Herr") {
+                                echo htmlspecialchars($_POST['salutation']);
+                        } 
+                        ?>
+                        <?php                         
+                            if($_POST['salutation'] == "Frau") {
+                                echo htmlspecialchars($_POST['salutation']);
+                        } 
+                        ?>
+                        <?php echo htmlspecialchars($_POST['name']); ?>
+                    </span>
+                    , Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>
                     Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
                     
-                    <span>Vor- und Nachname: </span><?php echo htmlspecialchars($_POST['anrede']); ?> <?php echo htmlspecialchars($_POST['name']); ?> <br>
-                    <span>E-Mail: </span><?php echo htmlspecialchars($_POST['email']); ?> <br><br>
-                    <!-- Hier muss angegeben werden was der User unter den Checkboxen angeklickt hat -->
-                    <span>Ihre Frage:</span> <?php echo htmlspecialchars($_POST['question']); ?> <br>
+                    <span>Vor- und Nachname: </span>
+                    <?php 
+                        if($_POST['salutation'] == "Herr") {
+                        echo htmlspecialchars($_POST['salutation']);
+                        }
+                        if($_POST['salutation'] == "Frau") {
+                            echo htmlspecialchars($_POST['salutation']);
+                        }
+                    ?> 
+                    <?php echo htmlspecialchars($_POST['name']); ?> <br>
+                    <span>E-Mail: </span>
+                        <?php echo htmlspecialchars($_POST['email']); ?> <br>
+                    <span>Kategorie: </span>
+                        <?php echo htmlspecialchars($_POST['category']); ?> <br><br>
+                    <span>Ihre Frage:</span> 
+                        <?php echo htmlspecialchars($_POST['question']); ?> <br>
                 </p>
             </article>
         </main>
@@ -36,34 +62,12 @@
             extract($_POST); //Import variables into the current symbol table from an array
             $file=fopen("supportfile.txt", "a"); // "a" Open for writing only; place the file pointer at the end of the file. If the file does not exist, attempt to create it.
             fwrite($file, "Name: ");
+            fwrite($file, $salutation ." ");
             fwrite($file, $name ."\n");
             fwrite($file, "E-Mail: ");
             fwrite($file, $email ."\n");
-            fwrite($file, "Kategorien: " ."\n");
-            if($work == true){
-                fwrite($file, "Arbeit" ."\n");
-            }
-            if($work == "noWork"){
-                fwrite($file, "");
-            }
-            if($security == true){
-                fwrite($file, "Sicherheit" ."\n");
-            }
-            if($security == "noSecurity"){
-                fwrite($file, "");
-            }
-            if($costs == true){
-                fwrite($file, "Kosten" ."\n");
-            }
-            if($costs == "noCosts"){
-                fwrite($file, "");
-            }
-            if($others == true){
-                fwrite($file, "Sonstiges" ."\n");
-            }
-            if($others == "noOthers"){
-                fwrite($file, "");
-            }
+            fwrite($file, "Kategorie: ");
+            fwrite($file, $category ."\n");
             fwrite($file, "Frage: ");
             fwrite($file, $question ."\n");
             fwrite($file, "--------------------------------\n");

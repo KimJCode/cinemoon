@@ -11,8 +11,8 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
     var Email = email.value 
     var TextareaQuestion = textareaQuestion.value 
 
-    var c = checkboxCount()
-    var errors = findErrors(VorNachname, Email, c, TextareaQuestion)
+    //var c = checkboxCount() Wie bei der Funktion beschrieben war keine Zeit mehr und wir mussten unsere Prioritäten verlegen, vielleicht bleibt am Ende noch genug Zeit um das Projekt Checkboxen zu beenden
+    var errors = findErrors(VorNachname, Email, TextareaQuestion) //hier müsste man für checkboxen das "c" noch mitgeben
 
     //Wenn Fehler gefunden wurden, wird errors.length > 0,
     if(errors.length > 0) {
@@ -41,6 +41,7 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
     })
 })
 
+/*
 //Diese Funktion schaut wie viele Checkboxen angeklickt wurden
 //https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
 function checkboxCount() {
@@ -70,7 +71,10 @@ function checkboxCount() {
     return i
 }
 
-function findErrors(VorNachname, Email, c, TextareaQuestion){
+Diese Funktion hätte man benutzen können für Checkboxen, leider konnte ich aufgrund der Zeit einen Bug im php Skript nicht mehr fixen und wir mussten auf ein select wechseln
+*/
+
+function findErrors(VorNachname, Email, TextareaQuestion){
     let errorMessages = []
 
     //Vor- Nachname validieren:
@@ -85,10 +89,11 @@ function findErrors(VorNachname, Email, c, TextareaQuestion){
 
     //Hier könnte man noch nach einem "@" in der E-Mail suchen
 
-    //Checkboxen validieren: (Hier wird geschaut das mindestens eine Box angeklickt wurde)
+    /*Checkboxen validieren: (Hier wird geschaut das mindestens eine Box angeklickt wurde)
     if(c == 0) {
-        errorMessages.push("Bitte wählen Sie mindestens eine Kategorie aus.\n")
+        errorMessages.push("Bitte wählen Sie mindestens eine Kategorie aus.\n") //".push" Appends new elements to the end of an array, and returns the new length of the array.
     }
+    */
 
     //Frage validieren:
     if(TextareaQuestion === '' || TextareaQuestion === null) {
