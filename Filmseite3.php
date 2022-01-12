@@ -134,6 +134,32 @@
                     <!-- https://www.lascimmiapensa.com/wp-content/uploads/2020/08/tenet-trailer-finale.jpg-->
                 </div>
             </div>
+    <!-- Ticket Box-->
+    <div class="TicketBox" >
+        
+        <h4> Tickets </h4>
+        <br>
+        <table>
+            <tr>
+                <td class="TDCell">Erwachsene </td>
+                <td> <a href=""> <span class="TInfo"> Loge </span>    <br> <span class="SK"> 12 &euro; </span>  <br> &nbsp; </a></td> 
+                <td> <a href=""> <span class="TInfo"> Parkett </span>    <br> <span class="SK"> 14 &euro; </span>  <br> &nbsp; </a></td> 
+                <td> <a href=""> <span class="TInfo"> Paarsitz </span>    <br> <span class="SK"> 18 &euro; </span>  <br> &nbsp; </a></td> 
+            </tr>
+            <tr>
+               <td class="TDCell">Schüler / Studenten</td>
+               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 9 &euro; </span>  <br> &nbsp; </a></td> 
+               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 10 &euro; </span>  <br> &nbsp; </a></td> 
+               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 15 &euro; </span>  <br> &nbsp; </a></td> 
+           </tr>
+           <tr>
+               <td class="TDCell"> Kinder bis 15 J.</td>
+               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 7 &euro; </span>  <br> &nbsp; </a></td> 
+               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 8 &euro; </span>  <br> &nbsp; </a></td> 
+               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 13 &euro; </span>  <br> &nbsp; </a></td> 
+           </tr>
+        </table>
+</div>
 
             <br> <br> <br>
                

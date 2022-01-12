@@ -32,9 +32,27 @@ div.FilmBoxElement {display: table-cell;
                         vertical-align: top;}
 }
 
+/* Ticket Box */
+
+div.TicketBox {background-color:  rgba(78, 76, 76, 0.361);
+    margin-top:30px;
+    padding-left: 30px;
+    height: 280px;
+    overflow-x: auto;}
+
+.TDCell {background-color: rgb(90, 97, 97);
+    width: 230px;
+    
+    text-align: left;
+    padding-left: 20px;}
+
+.TInfo {color: rgb(159, 184, 235);
+        float: left;
+        font-weight: bold;
+        font-size: 100%;}
+
+
 /* Vorstellung Box */
-
-
 div.VorstellungBox {background-color:  rgba(78, 76, 76, 0.361);
                 margin-top:30px;
                 padding-left: 30px;
