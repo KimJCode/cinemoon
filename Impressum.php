@@ -23,7 +23,7 @@
                 <br>
                 <section>
                     <br>
-                    <p id = "Unter-Ueberschrift"> Dienstanbieter: </p>
+                    <h2>Dienstanbieter: </h2>
                     <br>
                     <p>
                         cinemoon <br>
@@ -38,7 +38,7 @@
                         E-Mail: cinemoon.business@gmail.com
                     </p>
                     <br>
-                    <p id = "Unter-Ueberschrift"> Geschäftliches: </p>
+                    <h2> Geschäftliches: </h2>
                     <br>
                     <p>
                         Geschäftsführung: Daniele Amore, Philipp Le, Julius Steinbach <br>
