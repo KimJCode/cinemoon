@@ -34,7 +34,7 @@
 
                     <div style="width: 590px;" class="FilmBoxElement">
                         <ul style="list-style: none;">
-                            <li> <a href = "Filmseite1.php" > <p class="p3"> James Bond: No Time To Do </p> </a> <br> </li>
+                            <li> <a href = "Filmseite1.php" > <p class="p3"> James Bond: No Time To Die </p> </a> <br> </li>
                             <li> <h3>USA 2020 / 164 min / FSK 12 / Action </h3> </li>
                             <li> <br></li>
                             <li> <p class="p1"> <span style="font-weight: bold;"> Regie: </span> Cary Joji Fukunaga </p></li>
