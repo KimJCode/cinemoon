@@ -28,24 +28,7 @@ div.highlight p#beschreibung {
     padding-right: 35px;
     background: #2efef700;
 }
-/*section#box {
-    display:flex;
-    justify-content: start;
-    gap: 25%;
-    flex-wrap: wrap;
-    padding: 2%;
-    width: 100%;   
-    margin: 6px;
-    background: #7e7e7d53;  
-}
-span.Ueberschrift{
-    color:rgb(112, 177, 177);
-    font-size: 1.5rem;
-}
-section#box p{
-    font-size: 1.1rem;
-    color: rgb(233, 233, 233);
-}*/
+
 .das-Element2 {
     margin: 35px;
     padding: 6px;
