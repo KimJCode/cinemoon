@@ -58,6 +58,9 @@ p{
   grid-area: acht;
   align-self:stretch; 
 }
+h2{
+  text-align: start;
+}
 @media only screen and (min-width: 1200px){
   .Gridcontainer {
     display: grid; 
@@ -74,3 +77,4 @@ p{
     margin-top: 1%;
   }
 }
+
