@@ -82,6 +82,7 @@
                         <br>
                     </div>
                 </div>
+               </div>
             </article>
         </main>
         
