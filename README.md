@@ -4,9 +4,6 @@ Willkommen bei cinemoon.
 In unserem Github finden Sie unseren umfangreichen Code!
 
 Probleme:
-- Banner Hintergrundbild hat schlechte Resolution
-- Navigationsbar bleibt nicht im Banner wenn man weit raus zoomt
-- responsive Design ist schlecht
 
 JavaScript / PHP:
 - Analytische Cookies (Wie oft auf welcher Seite) ❗
@@ -16,5 +13,39 @@ JavaScript / PHP:
 - Eventuell JavaScript nutzen für Animationen?
 - Support Ticket ❗
 
-Seiten die noch Validierungsfehler haben:
+Noch fixen:
+- Kontaktseite
+- indexseite
+- Impressum
+- Gastroseite
+
+Bereit für Abgabe:
+PhP/JavaScript:
 - Über-uns-seite.php
+- Supportseite.php
+- Programmseite.php
+- LadiesNightEvent.php
+- ChilHoodClassics.php
+- AnimeNightEvent.php
+- Alle Filmseiten
+- Eventseite.php
+- Datenschutz.php
+- Action.php
+- Supportticket.php
+- footer.php
+- header.php
+- validator.js
+
+CSS:
+- action.css
+- style1.css
+- styleDatenschutz.css
+- styleEvent.css
+- styleFilmseite
+- styleGastro.css
+- styleImpressum.css
+- styleIndex.css
+- styleKontakt.css
+- styleProgramm.css
+- styleSupportseite.css
+- styleUeberUnsSeite.css

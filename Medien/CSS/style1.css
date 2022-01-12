@@ -149,7 +149,6 @@ header {
     
     footer ul li a:hover {
         color: rgb(76, 68, 68);
-        font-weight: 10px;
         text-shadow: black 3px 2px 4px;
         color: beige;
         cursor: pointer;

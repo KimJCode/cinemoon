@@ -40,7 +40,7 @@
                     <br><br>
 
                     <h2> Ansprechpartner </h2>
-                <section class="aussenrum">
+                <div class="aussenrum">
                     <div class="das-Element"> Max Mustermann 
                                             <img src = "Medien/Bilder/Mitarbeiter1.jpg" alt = "Geschäftsführer" height="250">
                                             <!-- https://www.flickr.com/photos/kk/6813331803/in/photostream/-->
@@ -55,7 +55,7 @@
                                             <img src = "Medien/Bilder/Mitarbeiter3.jpg" alt = "Personalleiter" height="250"> 
                                             <!-- https://www.flickr.com/photos/kk/7213589000/in/album-72157629152404511/ -->
                                             Personalleiter</div>
-                </section>
+                </div>
 
                  <br><br>
                  <h2> Karriere </h2>

@@ -28,3 +28,8 @@ E-Mail: froukshd@gmail.com
 Kategorie: Arbeit
 Frage: Test6
 --------------------------------
+Name: Herr Daniele Nicht Amore
+E-Mail: froukshd@gmail.com
+Kategorie: Kosten
+Frage: Test7
+--------------------------------
