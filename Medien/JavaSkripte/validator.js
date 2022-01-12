@@ -19,6 +19,7 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
         s.preventDefault()      //Es wird nix weitergeleitet an den Server/Datenbank
         messageContainer.innerText = errors.join(" ")
         messageContainer.classList.add("red-message")
+        //Für die Barrierefreiheit!
         if(VorNachname === '' || VorNachname === null) {
             vorNachname.classList.add("red-box")
         }
@@ -43,12 +44,12 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
 //Diese Funktion schaut wie viele Checkboxen angeklickt wurden
 //https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
 function checkboxCount() {
-    const cb1 = document.querySelector('#checkbox-work')    //man könnte auch die ".getElementById" Methode benutzen
-    const cb2 = document.querySelector('#checkbox-security')
-    const cb3 = document.querySelector('#checkbox-costs')
-    const cb4 = document.querySelector('#checkbox-others')
+    var cb1 = document.querySelector('#checkbox-work')    //man könnte auch die ".getElementById" Methode benutzen
+    var cb2 = document.querySelector('#checkbox-security')
+    var cb3 = document.querySelector('#checkbox-costs')
+    var cb4 = document.querySelector('#checkbox-others')
 
-    let i = 0 
+    let i = 0   //let ermöglicht es Variablen zu deklarieren, deren Gültigkeitsbereich auf den Block, den Befehl oder den Ausdruck beschränkt ist, in dem sie deklariert sind. Der Unterschied zum var (en-US) Schlüsselwort ist, dass der Gültigkeitsbereich auf Blöcke und nicht auf Funktionen bzw. Global beschränkt ist.
 
     if(cb1.checked) {
         i += 1
