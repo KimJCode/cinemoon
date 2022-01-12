@@ -29,7 +29,7 @@ div.FilmBoxElement {display: table-cell;
 
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 700px) {
     .PBild {height: 500px; }
 
     div.FilmBoxElement {display: table-row;
@@ -39,14 +39,9 @@ div.FilmBoxElement {display: table-cell;
     font-size: 250%;
     padding-top: 30px;
     font-weight: bold;}
-
-
 }
 
 /* Vorstellung Box */
-
-
-
 li h1   {font-size: 100%;
     
      color: rgb(66, 119, 211);

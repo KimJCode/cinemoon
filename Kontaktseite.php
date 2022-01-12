@@ -59,6 +59,7 @@
 
                  <br><br>
                  <h2> Karriere </h2>
+<<<<<<< HEAD
                <section id = "box">
                    <p id="karriere">
                         <span class="Ueberschrift">Offnene Stellen:</span> <br>
@@ -72,6 +73,29 @@
                         - Digatle Bewerbungen bitte als PDF-Datei <br>
                    </p>
                 </section>
+=======
+                 <div class="KontaktBox">
+                    <div style="width: 45%;" class="KontaktBoxElement">
+                      <ul style="list-style: none;">
+                        <li>  <p class = "Unter-Ueberschrift"> Offene Stellen: </p>  </li>
+                        <li> - Hilfskoch (m/w/d) </li>
+                        <li>  - Filmtechnicker (m/w/d) </li>
+                        <li>  - Servicekraft (m/w/d) </li>
+                        <li>  - Kassierkraft (m/w/d) </li>
+                        </ul>
+                    </div>
+
+                    <div style="width: 590px;" class="KontaktBoxElement">
+                        <ul style="list-style: none;">
+                            <li>  <p class = "Unter-Ueberschrift"> Bewerben bitte bei Neils Heuer </p>  </li>
+                            <li> ➜ Email: cinemoon.Karriere@gmail.com </li>
+                            <li> ➜ Digatle Bewerbungen bitte als PDF-Datei</li>
+                            
+                        </ul>
+                    </div>
+               </div>
+                <br><br>
+>>>>>>> 5628fae6d7b0b37c5d0e2c043cc4248ccb43ed77
             </article>
         </main>
 
