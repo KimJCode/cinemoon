@@ -1,53 +1,77 @@
+/* Desktop / Allgemein */
 
-/* Allgemein */
-.p1 {color: rgb(213, 213, 213);
-    font-size: 130%;}
+.p1 {
+    color: rgb(213, 213, 213);
+    font-size: 130%;
+}
 
-.p2 {color: rgb(235, 235, 235);
-font-size: 130%;}
+.p2 {
+    color: rgb(235, 235, 235);
+    font-size: 130%;
+}
 
-a .p3 {color: rgb(66, 119, 211);
+a .p3 {
+    color: rgb(66, 119, 211);
     font-size: 300%;
     padding-top: 30px;
     font-weight: bold;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-a :hover {color: beige;}
+a :hover {
+    color: beige;
+}
 
 /* Film Box */
-div.FilmBox     {background-color: rgba(78, 76, 76, 0.361);
-                margin-top: 100px;}
+div.FilmBox {
+    background-color: rgba(78, 76, 76, 0.361);
+    margin-top: 100px;
+}
             
 
-div.FilmBoxElement {display: table-cell;
-                    vertical-align: top;
-                    background-color:  rgba(204, 98, 98, 0);}
+div.FilmBoxElement {
+    display: table-cell;
+    vertical-align: top;
+    background-color:  rgba(204, 98, 98, 0);
+}
 
-.PBild {height: 500px; }
-
-
-
-@media screen and (max-width: 700px) {
-    .PBild {height: 500px; }
-
-    div.FilmBoxElement {display: table-row;
-                        vertical-align: top;}
-
-    .p3 {color: rgb(66, 119, 211);
-    font-size: 250%;
-    padding-top: 30px;
-    font-weight: bold;}
+.PBild {
+    height: 500px; 
 }
 
 /* Vorstellung Box */
-li h1   {font-size: 100%;
-    
-     color: rgb(66, 119, 211);
-    font-weight: bold;}
-
-li h3   {color: rgb(138, 138, 138);
+li h1 {
+    font-size: 100%;
+    color: rgb(66, 119, 211);
     font-weight: bold;
-    font-size: 19px;}
+}
 
+li h3 {
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .PBild {
+        height: 500px; 
+    }
+
+    div.FilmBoxElement {
+        display: table-row;
+        vertical-align: top;
+    }
+
+    .p3 {
+    color: rgb(66, 119, 211);
+    font-size: 250%;
+    padding-top: 30px;
+    font-weight: bold;
+    }
+}
