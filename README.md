@@ -13,12 +13,6 @@ JavaScript / PHP:
 - Eventuell JavaScript nutzen für Animationen?
 - Support Ticket ❗
 
-Noch fixen:
-- Kontaktseite
-- indexseite
-- Impressum
-- Gastroseite
-
 Bereit für Abgabe:
 PhP/JavaScript:
 - Über-uns-seite.php
@@ -35,6 +29,10 @@ PhP/JavaScript:
 - footer.php
 - header.php
 - validator.js
+- Kontaktseite
+- indexseite
+- Impressum
+- Gastroseite
 
 CSS:
 - action.css
