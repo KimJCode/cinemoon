@@ -7,8 +7,8 @@
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Filmx">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
+        <link rel ="stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel ="stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
     
@@ -52,118 +52,116 @@
                
 
     <!-- Vorstellung Box-->
-    <div class="VorstellungBox" >
-        
-                 <h4> Vorstellungen</h4>
-                 <br>
-                 <table>
-                     <tr>
-                         <td class="DCell">Montag 07.02</td>
-                         <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
-                         <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
-                         <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 21:30 </span>  <br> &nbsp; </a></td> 
-                         <td class="empty"> </td>
-                         <td class="DCell">Donnerstag 10.02</td>
-                         <td> <a href=""> <span class="VInfo"> Kino 6 </span>    <br> <span class="SK"> 15:30 </span>  <br> &nbsp; </a></td> 
-                         <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 17:00 </span>  <br> &nbsp; </a></td> 
-                         <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 21:00 </span>  <br> &nbsp; </a></td> 
-                     </tr>
-                     <tr>
-                        <td class="DCell">Dienstag 08.02</td>
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 15:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 21:30 </span>  <br> &nbsp; </a></td> 
-                        <td class="empty"> </td>
-                        <td class="DCell">Freitag 11.02</td>
-                        <td> <a href=""> <span class="VInfo"> Kino 3 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 17:30 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 20:30 </span>  <br> &nbsp; </a></td> 
-                        
+                <div class="VorstellungBox" >
+                    
+                            <h4> Vorstellungen</h4>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td class="DCell">Montag 07.02</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 21:30 </span>  <br> &nbsp; </a></td> 
+                                    <td class="empty"> </td>
+                                    <td class="DCell">Donnerstag 10.02</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 6 </span>    <br> <span class="SK"> 15:30 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 17:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 21:00 </span>  <br> &nbsp; </a></td> 
+                                </tr>
+                                <tr>
+                                    <td class="DCell">Dienstag 08.02</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 15:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 2 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 21:30 </span>  <br> &nbsp; </a></td> 
+                                    <td class="empty"> </td>
+                                    <td class="DCell">Freitag 11.02</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 3 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 17:30 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 20:30 </span>  <br> &nbsp; </a></td> 
+                                    
 
-                    </tr>
-                    <tr>
-                        <td class="DCell"> Mittwoch 09.02</td>
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 17:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 6 </span>    <br> <span class="SK"> 21:00 </span>  <br> &nbsp; </a></td> 
-                        <td class="empty"> </td>
-                        <td class="DCell">Samstag 10.202</td>
-                        <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 15:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
-                        <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 20:00 </span>  <br> &nbsp; </a></td> 
-                    </tr>
-                 </table>
-    </div>
-    
+                                </tr>
+                                <tr>
+                                    <td class="DCell"> Mittwoch 09.02</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 14:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 17:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 6 </span>    <br> <span class="SK"> 21:00 </span>  <br> &nbsp; </a></td> 
+                                    <td class="empty"> </td>
+                                    <td class="DCell">Samstag 10.202</td>
+                                    <td> <a href=""> <span class="VInfo"> Kino 1 </span>    <br> <span class="SK"> 15:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 18:00 </span>  <br> &nbsp; </a></td> 
+                                    <td> <a href=""> <span class="VInfo"> Kino 4 </span>    <br> <span class="SK"> 20:00 </span>  <br> &nbsp; </a></td> 
+                                </tr>
+                            </table>
+                </div>
+                
     
     <!-- Film Details-->
              
-            <div class="FilmBox" >
-                <div class="TextDetail">
-                     <h4> Film-Details </h4>
-                     <br>
-                     <p class="p2">J.J Abrams krönt mit "Der Aufstieg Skywalkers" den Höhepunkt der epischen Starwars Saga  </p> 
-                     <br>
-                     <table class="TDetail">
-                        <colgroup>
-                            <col style="width: 180px">
-                            <col style="width: 4000px">
-                        </colgroup>
-                         <tr> 
-                             <td><p class="p1"> <span style="font-weight: bold;">Regie:</span> </p></td>
-                             <td><p class="p1">  J.J. Abrams </p></td>
-                         </tr>
-                         <tr> 
-                            <td><p class="p1"> <span style="font-weight: bold;">Musik:</span> </p></td>
-                            <td><p class="p1">  John Williams </p></td>
-                        </tr>
-                        <tr> 
-                            <td><p class="p1"> <span style="font-weight: bold;">Drehbuch:</span> </p> </td>
-                            <td><p class="p1">  J.J. Abrams, Chris Terrio </p></td>
-                        </tr>
-                        <tr> 
-                            <td> <p class="p1"> <span style="font-weight: bold;">Schnitt:</span> </p></td>
-                            <td><p class="p1">  JMaryann Brandon, Stefan Grube </p></td>
-                        </tr>
-                     </table>
-                </div>
+                <div class="FilmBox" >
+                    <div class="TextDetail">
+                        <h4> Film-Details </h4>
+                        <br>
+                        <p class="p2">J.J Abrams krönt mit "Der Aufstieg Skywalkers" den Höhepunkt der epischen Starwars Saga  </p> 
+                        <br>
+                        <table class="TDetail">
+                            <colgroup>
+                                <col style="width: 180px">
+                                <col style="width: 4000px">
+                            </colgroup>
+                            <tr> 
+                                <td><p class="p1"> <span style="font-weight: bold;">Regie:</span> </p></td>
+                                <td><p class="p1">  J.J. Abrams </p></td>
+                            </tr>
+                            <tr> 
+                                <td><p class="p1"> <span style="font-weight: bold;">Musik:</span> </p></td>
+                                <td><p class="p1">  John Williams </p></td>
+                            </tr>
+                            <tr> 
+                                <td><p class="p1"> <span style="font-weight: bold;">Drehbuch:</span> </p> </td>
+                                <td><p class="p1">  J.J. Abrams, Chris Terrio </p></td>
+                            </tr>
+                            <tr> 
+                                <td> <p class="p1"> <span style="font-weight: bold;">Schnitt:</span> </p></td>
+                                <td><p class="p1">  JMaryann Brandon, Stefan Grube </p></td>
+                            </tr>
+                        </table>
+                    </div>
                                 
-                <div class="BildDetail">
-                    <img src="Medien/Bilder/SW2.jpg" class="DBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
-                    <!-- https://th.bing.com/th/id/R.b0174aaff700140c8cb2e5b1ea2f24b4?rik=FUj6U2uWEOtAeg&pid=ImgRaw&r=0-->
+                    <div class="BildDetail">
+                        <img src="Medien/Bilder/SW2.jpg" class="DBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
+                        <!-- https://th.bing.com/th/id/R.b0174aaff700140c8cb2e5b1ea2f24b4?rik=FUj6U2uWEOtAeg&pid=ImgRaw&r=0-->
+                    </div>
                 </div>
-            </div>
      <!-- Ticket Box-->
-     <div class="TicketBox" >
-        
-        <h4> Tickets </h4>
-        <br>
-        <table>
-            <tr>
-                <td class="TDCell">Erwachsene </td>
-                <td> <a href=""> <span class="TInfo"> Loge </span>    <br> <span class="SK"> 12 &euro; </span>  <br> &nbsp; </a></td> 
-                <td> <a href=""> <span class="TInfo"> Parkett </span>    <br> <span class="SK"> 14 &euro; </span>  <br> &nbsp; </a></td> 
-                <td> <a href=""> <span class="TInfo"> Paarsitz </span>    <br> <span class="SK"> 18 &euro; </span>  <br> &nbsp; </a></td> 
-            </tr>
-            <tr>
-               <td class="TDCell">Schüler / Studenten</td>
-               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 9 &euro; </span>  <br> &nbsp; </a></td> 
-               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 10 &euro; </span>  <br> &nbsp; </a></td> 
-               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 15 &euro; </span>  <br> &nbsp; </a></td> 
-           </tr>
-           <tr>
-               <td class="TDCell"> Kinder bis 15 J.</td>
-               <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 7 &euro; </span>  <br> &nbsp; </a></td> 
-               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 8 &euro; </span>  <br> &nbsp; </a></td> 
-               <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 13 &euro; </span>  <br> &nbsp; </a></td> 
-           </tr>
-        </table>
-</div>
-
-            <br> <br> <br>
-               
-            </article>
-        </main>
+                <div class="TicketBox" >
+                    
+                    <h4> Tickets </h4>
+                    <br>
+                    <table>
+                        <tr>
+                            <td class="TDCell">Erwachsene </td>
+                            <td> <a href=""> <span class="TInfo"> Loge </span>    <br> <span class="SK"> 12 &euro; </span>  <br> &nbsp; </a></td> 
+                            <td> <a href=""> <span class="TInfo"> Parkett </span>    <br> <span class="SK"> 14 &euro; </span>  <br> &nbsp; </a></td> 
+                            <td> <a href=""> <span class="TInfo"> Paarsitz </span>    <br> <span class="SK"> 18 &euro; </span>  <br> &nbsp; </a></td> 
+                        </tr>
+                        <tr>
+                        <td class="TDCell">Schüler / Studenten</td>
+                        <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 9 &euro; </span>  <br> &nbsp; </a></td> 
+                        <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 10 &euro; </span>  <br> &nbsp; </a></td> 
+                        <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 15 &euro; </span>  <br> &nbsp; </a></td> 
+                    </tr>
+                    <tr>
+                        <td class="TDCell"> Kinder bis 15 J.</td>
+                        <td> <a href=""> <span class="TInfo"> </span>    <br> <span class="SK"> 7 &euro; </span>  <br> &nbsp; </a></td> 
+                        <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 8 &euro; </span>  <br> &nbsp; </a></td> 
+                        <td> <a href=""> <span class="TInfo">  </span>    <br> <span class="SK"> 13 &euro; </span>  <br> &nbsp; </a></td> 
+                    </tr>
+                    </table>
+                </div>
+                <br> <br> <br>
+                </article>
+            </main>
 
         <?php
             include("Medien/phpSkripte/footer.php");

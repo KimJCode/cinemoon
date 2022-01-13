@@ -19,27 +19,32 @@
 
         <main>
             <article>
+
+                <!-- Kontakt Informationen -->
                 <h1> Kontakt </h1>
                 <br>
-                <p> Telefon: +49 123 45678910 <br>
-                    Fax: +49 109 87654321 <br>
-                    Anschrift: Am Musterhaus 97
-                    54296 Trier
-                    Deutschland
-                    <br> <br>
+                    <p>
+                        Telefon: +49 123 45678910 <br>
+                        Fax: +49 109 87654321 <br>
+                        Anschrift: Am Musterhaus 97
+                        54296 Trier
+                        Deutschland
+                        <br> <br>
 
-                    <span class = "Unter-Ueberschrift"> Geschäftlicher-Kontakt: </span> Max Mustermann (Geschäftsführer) <br>
-                    Email : cinemoon.business@gmail.com  <br>
-                     
-                    <br>
-                    <span class = "Unter-Ueberschrift"> Technischer-Kontakt: </span>Tim  Kaufmann (Facility manager) <br>
-                    Email : cinemoon.Tim-K@gmail.com <br>
-                    <br>
-                    <span class = "Unter-Ueberschrift"> Personeller-Kontakt: </span> Nils Heuer (Personalleiter) <br>
-                    Email : cinemoon.Nils-H@gmail.com <br>  
-                    <br><br>
+                        <span class = "Unter-Ueberschrift"> Geschäftlicher-Kontakt: </span> Max Mustermann (Geschäftsführer) <br>
+                        Email : cinemoon.business@gmail.com  <br>
+                        
+                        <br>
+                        <span class = "Unter-Ueberschrift"> Technischer-Kontakt: </span>Tim  Kaufmann (Facility manager) <br>
+                        Email : cinemoon.Tim-K@gmail.com <br>
+                        <br>
+                        <span class = "Unter-Ueberschrift"> Personeller-Kontakt: </span> Nils Heuer (Personalleiter) <br>
+                        Email : cinemoon.Nils-H@gmail.com <br>  
+                        <br><br>
+                    </p>
 
-                    <h2> Ansprechpartner </h2>
+                 <!-- Ansprechpartner -->
+                <h2> Ansprechpartner </h2>
                 <div class="aussenrum">
                     <div class="das-Element"> Max Mustermann 
                                             <img src = "Medien/Bilder/Mitarbeiter1.jpg" alt = "Geschäftsführer" height="250">
@@ -56,8 +61,9 @@
                                             <!-- https://www.flickr.com/photos/kk/7213589000/in/album-72157629152404511/ -->
                                             Personalleiter</div>
                 </div>
-
                  <br><br>
+
+                <!-- Karriere -->
                  <h2> Karriere </h2>
                  <div class="KontaktBox">
                     <div style="width: 45%;" class="KontaktBoxElement">
@@ -78,7 +84,7 @@
                             
                         </ul>
                     </div>
-               </div>
+                  </div>
                 <br><br>
             </article>
         </main>
