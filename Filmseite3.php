@@ -7,8 +7,8 @@
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Filmx">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
-        <link rel =" stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleFilmseite.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
     

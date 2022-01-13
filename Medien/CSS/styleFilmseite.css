@@ -23,10 +23,18 @@ div.FilmBox         {background-color: rgba(78, 76, 76, 0.361);
 div.FilmBoxElement {display: table-cell;
                     vertical-align: top;}
 
-.PBild              {height: 500px; }
+.PBild {width: 450px;
+        display: block; 
+        height: auto;}
 
-@media screen and (max-width: 700px) {
-        .PBild              {height: 400px; }
+@media screen and (max-width: 768px) {
+.PBild{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;  
+        display: block;
+        margin: 0 auto;
+}
 
         div.FilmBoxElement  {display: table-row;
                             vertical-align: top;}
@@ -120,18 +128,24 @@ div.BildDetail  {width: 50%;
 .TDetail td     {text-align: left;
                 background-color: rgba(137, 43, 226, 0);}
 
-.DBild          {height: 320px;}
+.DBild          {max-width: 500px;
+                display: block; 
+                height: auto;}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
     div.BildText {width: 100%;;
                   display: table-row;
                   vertical-align: top;}
 
     div.BildDetail {width:100%; 
-                    display: table-row; 
-                    padding: 30px; 
-                    padding-left: 50px; }
+                    display: table-row; }
 
-    .DBild          {height: 180px;}
+    .DBild{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;  
+        display: block;
+        margin: 0 auto;
+        }
 }
