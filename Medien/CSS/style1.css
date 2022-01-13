@@ -129,6 +129,7 @@ header {
         min-height: 100vh;
         margin-bottom: 1%;
     }
+
     article p {
         font-size: 150%;
         color: #a9b5add4;
@@ -200,9 +201,9 @@ header {
         background-position: center;
     }
     
-    .logo {
+    .logo { /*Einstellung, wie groß Logo sein*/
         height: 20%;
-        width: 20%; /*Einstellung, wie groß Logo sein*/
+        width: 20%; 
         cursor: pointer;
     }
 
