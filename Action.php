@@ -23,6 +23,7 @@
                 <p>
                     Hallo 
                     <span>
+                        <!-- Da man Menschen die "Divers" angegeben hat mit verschiedensten Anreden asprechen kann/sollte, haben wir uns dazu entschieden einfach nur den Namen ohne Anrede auszugebenen, falls "Divers" angeklickt wurde -->
                         <?php 
                             if($_POST['salutation'] == "Herr") {
                                 echo htmlspecialchars($_POST['salutation']);

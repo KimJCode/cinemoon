@@ -4,9 +4,9 @@ var email = document.getElementById("id-email")
 var textareaQuestion = document.getElementById("textarea-question")
 var messageContainer = document.getElementById("message-container")
 
-// Hier wird gewartet bis submit gedrückt wurde
+// Wird ausgelöst sobald "submit" (Abschicken) gedrückt wird
 form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folgendes ein: 
-    //Variablen
+    //Variablen:
     var VorNachname = vorNachname.value     //hier sollte die Value der String sein, welcher angegeben wird
     var Email = email.value 
     var TextareaQuestion = textareaQuestion.value 
@@ -42,8 +42,9 @@ form.addEventListener("submit", (s) =>{     //"=>" Wenn etwas ankommt tritt folg
 })
 
 /*
-//Diese Funktion schaut wie viele Checkboxen angeklickt wurden
-//https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
+Diese Funktion schaut wie viele Checkboxen angeklickt wurden
+https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
+
 function checkboxCount() {
     var cb1 = document.querySelector('#checkbox-work')    //man könnte auch die ".getElementById" Methode benutzen
     var cb2 = document.querySelector('#checkbox-security')
@@ -79,17 +80,19 @@ function findErrors(VorNachname, Email, TextareaQuestion){
 
     //Vor- Nachname validieren:
     if(VorNachname === '' || VorNachname === null){ //Fall: falls nix eingegeben wurde
-        errorMessages.push("Bitte geben Sie Ihren Vor- und Nachnamen ein.\n") //Hier wird dem Array folgende Fehlermeldung übergeben
+        errorMessages.push("Bitte geben Sie Ihren Vor- und Nachnamen ein.\n") //Hier wird dem Array folgende Fehlermeldung übergeben falls die If-Anweisung erfüllt ist
     }
 
     //E-Mail validieren:
-    if(Email === '' || Email === null) { //Fall: falls nix eingegeben wurde
-        errorMessages.push("Bitte geben Sie eine E-Mail an.\n") //Hier wird dem Array folgende Fehlermeldung übergeben
+    if(Email === '' || Email === null) { 
+        errorMessages.push("Bitte geben Sie eine E-Mail an.\n") 
     }
 
-    //Hier könnte man noch nach einem "@" in der E-Mail suchen
+    //Hier könnte man noch nach einem "@" in der E-Mail suchen / Leider keine Zeit mehr gehabt
 
-    /*Checkboxen validieren: (Hier wird geschaut das mindestens eine Box angeklickt wurde)
+    /*
+    Checkboxen validieren: (Hier wird geschaut das mindestens eine Box angeklickt wurde)
+
     if(c == 0) {
         errorMessages.push("Bitte wählen Sie mindestens eine Kategorie aus.\n") //".push" Appends new elements to the end of an array, and returns the new length of the array.
     }
@@ -100,6 +103,6 @@ function findErrors(VorNachname, Email, TextareaQuestion){
         errorMessages.push("Bitte geben Sie Ihre Frage an.\n")
     }
 
-    //Hier könnte man noch einen Zeitbuffer machen
+    //Hier könnte man noch einen Zeitbuffer machen / Leider keine Zeit mehr gehabt
     return errorMessages
 }
