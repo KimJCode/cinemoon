@@ -1,81 +1,67 @@
-.article h2 {
-    font-size: 40px;
-    padding-top: 60px;
-    margin-top: 20px;
-}
+.article h2     {font-size: 40px;
+                padding-top: 60px;
+                margin-top: 20px;}
 
 
 
-.highlight {height: 250px;
-            padding-top: 30px; 
-        }
+.highlight      {height: 250px;
+                padding-top: 30px;}
 
-div.highlight p#beschreibung {
-    padding-top: 5%;
-    color: rgb(223, 223, 223);
-    border: 10px;
-    font-size: 30px;
-    border-color: white;
-    text-align: left; 
-}
+div.highlight p#beschreibung    {padding-top: 5%;
+                                color: rgb(223, 223, 223);
+                                border: 10px;
+                                font-size: 30px;
+                                border-color: white;
+                                text-align: left;}
 
-.das-Element {
-    display: inline-block;
-    height: 270px;
-    width: 200px;
-    margin: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    background: #2efef700;
-}
+.das-Element                    {display: inline-block;
+                                height: 270px;
+                                width: 200px;
+                                margin: 10px;
+                                padding-left: 35px;
+                                padding-right: 35px;
+                                background: #2efef700;}
 
-.das-Element2 {
-    margin: 35px;
-    padding: 6px;
-    background: #2efef700;
-    background-color: rgba(107, 182, 182, 0);
-    color: rgb(223, 223, 223);
-    font-size: 20px;
-}
+.das-Element2       {margin: 35px;
+                    padding: 6px;
+                    background: #2efef700;
+                    background-color: rgba(107, 182, 182, 0);
+                    color: rgb(223, 223, 223);
+                    font-size: 20px;}
 
 
-.Unter-Ueberschrift {
-    color:rgba(93, 255, 255, 0.527);
-    padding-bottom: 15px;
-}
+.Unter-Ueberschrift {color:rgba(93, 255, 255, 0.527);
+                    padding-bottom: 15px;}
 
-.aussenrum {
-    text-align: center;
-    margin: 6px;
-    width: 100%;
-    background: #7e7e7d53;
-}
+.aussenrum          {text-align: center;
+                    margin: 6px;
+                    width: 100%;
+                    background: #7e7e7d53;}
+
+/* Responsive Desgin*/
 @media only screen and (min-width: 768px) {
-    section#box {
-        justify-content:space-evenly;
-        
-    }
+    section#box {justify-content:space-evenly;}
 }
 
 div.KontaktBox     {background: #7e7e7d53;
-    margin-top: 30px;
-    padding: 20px;}
+                    margin-top: 30px;
+                    padding: 20px;}
 
-div.KontaktBoxElement {display: table-cell;
-        vertical-align: top;
-        font-size: 20px;
-        margin-left:50px ;
-        height: 180px;}
+div.KontaktBoxElement   {display: table-cell;
+                        vertical-align: top;
+                        font-size: 20px;
+                        margin-left:50px ;
+                        height: 180px;}
 
-.PBild {height: 500px; }
+.PBild                  {height: 500px; }
 
 /* Responsive Desgin*/
 
 @media screen and (max-width: 550px) {
-.PBild {height: 500px; }
+    .PBild  {height: 500px; }
 
-div.KontaktBoxElement {display: table-row;
-            vertical-align: top;}
+    div.KontaktBoxElement   {display: table-row;
+                            vertical-align: top;}
 
-img {height: 300px;}
+    img     {height: 300px;}
 }
