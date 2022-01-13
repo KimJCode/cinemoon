@@ -33,10 +33,7 @@
                                 echo htmlspecialchars($_POST['salutation']);
                         } 
                         ?>
-                        <?php echo htmlspecialchars($_POST['name']); ?>
-                    </span>
-                    , Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>
-                    Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
+                        <?php echo htmlspecialchars($_POST['name']);?></span>, Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
                     
                     <span>Vor- und Nachname: </span>
                     <?php 

@@ -50,7 +50,12 @@ section.event h2{
     border: 2px solid grey;
     background-color: transparent;
 }
-@media only screen and (max-width: 767px) { /*Weil ich hier statt CSS Grid CSS Flex damals benutzt habe, passt sich das Bild und die Box nicht responsiv an das Bild an, weshalb ich es versucht habe mit einer weiteren Media Quary zu fixen ab für die mobilen Versionen*/
+@media only screen and (max-width: 1200px) { /*Weil ich hier statt CSS Grid CSS Flex damals benutzt habe, passt sich das Bild und die Box nicht responsiv an das Bild an, weshalb ich es versucht habe mit einer weiteren Media Quary zu fixen ab für die mobilen Versionen*/
+    article{
+        margin:auto;
+        max-width: 90%;
+    }
+
     .eventitem img{
         max-width: 100%;
         max-height: 100%;
@@ -59,7 +64,7 @@ section.event h2{
         margin: 0 auto;
     }
 }
-@media only screen and (min-width: 768px) { /*Desktop Variante*/
+@media only screen and (min-width: 1200px) { /*Desktop Variante*/
 
     .eventitem {
         display:flex;

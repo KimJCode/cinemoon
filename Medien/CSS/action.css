@@ -1,9 +1,9 @@
 p {
-    display: inline-block;
     text-align: justify;
+    hyphens: auto;
     border: solid thin rgb(52, 121, 206);;
     margin: 0;
-    padding:10px;
+    padding:1%;
 }
 
 h1 {

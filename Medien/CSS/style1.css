@@ -194,15 +194,9 @@ header {
         background-position: center;
     }
     
-<<<<<<< HEAD
     .logo {
-        height: 20%;
-        width: 20%; /*Einstellung, wie groß Logo sein*/
-=======
-    .logo { /*Einstellung, wie groß Logo sein*/
-        height: 20%;
-        width: 20%; 
->>>>>>> 2aad306082da6f488c0b3610dc8b57593bd6f0f7
+        max-height: 20%;
+        max-width: 20%; /*Einstellung, wie groß Logo sein*/
         cursor: pointer;
     }
 
