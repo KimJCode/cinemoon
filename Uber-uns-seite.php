@@ -19,8 +19,8 @@
         <main>
             <article>
                <h1> Über uns </h1>
-               <div class = "Gridcontainer">
-                   <div class = "bildcontainer" id="eins">
+               <div class = "Gridcontainer"> <!--CSS GRID CONTAINER Start-->
+                   <div class = "bildcontainer" id="eins"> <!--Geschichte Start-->
                         <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
                    </div>
                    <div class = "textcontainer" id="zwei">
@@ -30,28 +30,28 @@
                             wie ein modernes Kino der Gegenwart aussehen muss. Dazu haben wir als wahre Trierer ein Kinokonzept
                             entwickelt und dann auch in Trier umgesetzt. 
                         </p>
-                   </div>
-                    <div class = "textcontainer" id="drei">
-                        <h2>Mitarbeiter</h2>
+                   </div> <!--Geschichte Ende-->
+                    <div class = "textcontainer" id="drei">  
+                        <h2>Mitarbeiter</h2><!--Mitarbeiter Start-->
                         <p>
                             Daniele Amore <br>
                             Philipp Le <br>
                             Julius Steinbach <br>
                         </p>
                     </div>
-                    <div class = "bildcontainer" id="vier">
+                    <div class = "bildcontainer" id="vier"> 
                         <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
-                    </div>
-                    <div class = "bildcontainer" id = "fünf">
+                    </div> <!--Mitarbeiter Ende-->
+                    <div class = "bildcontainer" id = "fünf"> <!--Philosophie Start-->
                             <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino" width="650" height="450"> 
                     </div>
-                    <div class = "textcontainer" id="sechs">
+                    <div class = "textcontainer" id="sechs"> 
                         <h2>Philosophie</h2>
                         <p>
                             Unsere Philosophie ist simpel, wir wollen Kinos an die moderne Welt wieder anbinden und gegenüber Online Streaming Anbietern eine wirkliche Alternative sein.
                         </p>
-                    </div>
-                    <div class = "textcontainer" id ="sieben">
+                    </div> <!--Philosophie Ende-->
+                    <div class = "textcontainer" id ="sieben"> <!--Adresse Start-->
                         <h2>Adresse</h2>
                         <p>
                             Schneidershof <br>
@@ -62,8 +62,9 @@
                     <div id= "acht">
                         <iframe class="map_canvas" src="https://www.openstreetmap.org/export/embed.html?bbox=6.6224613780579755%2C49.765276699520996%2C6.6347458953461835%2C49.77102823729162&amp;layer=mapnik&amp;marker=49.768152553711474%2C6.62860363670211"></iframe>
                     </div>
-               </div>
-            </article>
+               </div>><!--Adresse Ende-->
+            </article><!--CSS GRID CONTAINER Ende-->
+            
         </main>
         <?php
             include("Medien/phpSkripte/footer.php");

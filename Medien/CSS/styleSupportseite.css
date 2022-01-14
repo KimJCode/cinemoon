@@ -23,9 +23,9 @@ h2{
 }
 
 .antwort{
-    max-height: 0;
+    max-height: 0; /*Inhalt versteckt ohne richtige ID*/
     overflow: hidden;
-    transition: 1.2s ease;
+    transition: 1.2s ease; /* Aufmach Effekt*/
 }
 
 p{  
@@ -37,12 +37,12 @@ p{
     color:rgb(52, 121, 206);
 }
 
-.accordionitem:target .antwort{
-    max-height: 100rem;
+.accordionitem:target .antwort{ /* Selektiert dieses Element, wenn die id mit der id in der URL übereinstimmt */
+    max-height: 100rem; /*max-height wird festgelegt und man kann dann den Inhalt sehen*/
 }
 
 #userQuestion {
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
 }
 
 span {
