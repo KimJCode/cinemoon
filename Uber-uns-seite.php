@@ -22,6 +22,7 @@
                <div class = "Gridcontainer"> <!--CSS GRID CONTAINER Start-->
                    <div class = "bildcontainer" id="eins"> <!--Geschichte Start-->
                         <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
+                        <!-- https://www.pexels.com/photo/orange-central-cinema-led-signage-375885/ -->
                    </div>
                    <div class = "textcontainer" id="zwei">
                         <h2>Geschichte</h2>
@@ -43,7 +44,8 @@
                         <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
                     </div> <!--Mitarbeiter Ende-->
                     <div class = "bildcontainer" id = "fünf"> <!--Philosophie Start-->
-                            <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino" width="650" height="450"> 
+                            <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino">
+                            <!-- https://unsplash.com/photos/zeH-ljawHtg--> 
                     </div>
                     <div class = "textcontainer" id="sechs"> 
                         <h2>Philosophie</h2>
