@@ -6,7 +6,7 @@
         <meta name = "description" content = "cinemoon-action">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Support">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/action.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
@@ -34,10 +34,7 @@
                                 echo htmlspecialchars($_POST['salutation']);
                         } 
                         ?>
-                        <?php echo htmlspecialchars($_POST['name']); ?>
-                    </span>
-                    , Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>
-                    Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
+                        <?php echo htmlspecialchars($_POST['name']);?></span>, Ihr Anliegen wurde an unsere Mitarbeiter weitergeleitet, wir werden uns so schnell wie möglich um ihr Anliegen kümmern. <br>Hier sind nocheinmal Ihre angegebenen Daten: <br><br>
                     
                     <span>Vor- und Nachname: </span>
                     <?php 

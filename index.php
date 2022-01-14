@@ -6,8 +6,8 @@
         <meta name = "description" content = "cinemoon-Homepage">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleIndex.css">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">

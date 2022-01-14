@@ -1,9 +1,9 @@
-
+/*mobile Variante*/
 .Gridcontainer {
   display: grid; 
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr; 
-  gap: 10px 20px; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 1% 2%; 
   grid-template-areas: 
     "eins" 
     "zwei"
@@ -27,47 +27,54 @@ p{
 .bildcontainer{
   align-self: stretch;
 }
-#eins{
+#eins{ /*bild Geschichte*/
   grid-area: eins;
 }
-#zwei{
+#zwei{ /*text Geschichte*/
   grid-area: zwei;
 }
-#drei{
+#drei{ /*text Mitarbeiter*/
   grid-area: drei;
 }
-#vier{
+#vier{ /*bild Mitarbeiter*/
   grid-area: vier;
 }
-#fünf{
-  grid-area: fünf;
+#fünf{ /*bild Philosophie*/
+  grid-area: fünf; 
 }
-#sechs{
+#sechs{ /*text Philosophie*/
   grid-area: sechs;
 }
-#sieben{
+#sieben{ /*text Adresse*/
   grid-area: sieben;
 }
-
+#acht{ /*Map Adresse*/
+  grid-area: acht;
+}
 .map_canvas{
   overflow:hidden;
   height:100%;
   width:100%;
+  border:none;
+  margin: 0;
+  padding: 0;
 }
 #acht{
   grid-area: acht;
-  align-self:stretch; 
+  align-self:stretch; /*Fühlt das ganze Feld aus*/
 }
 h2{
   text-align: start;
 }
+
+/*Desktop/tablet*/
 @media only screen and (min-width: 1200px){
   .Gridcontainer {
     display: grid; 
-    width: 1200px;
+    width: 100%;
     grid-template-columns: repeat( auto-fit, minmax(450px, 1fr));
     grid-template-rows: 1fr 1fr 1fr 1fr; 
-    gap: 10px 20px; 
+    gap: 1% 2%; 
     grid-template-areas: 
       "eins zwei"
       "drei vier"

@@ -6,7 +6,7 @@
         <meta name = "description" content = "cinemoon-Eventseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Events">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleEvent.css">
         <link rel = "icon" href = "Medien/Bilder/icon.png">
@@ -21,11 +21,11 @@
             <article>
                 <h1>Events</h1>
                 <section class="event">
-                    <div>
+                    <div> <!--dient als Container für Einzelne Events mit Unterüberschriften-->
                         <h2>Ladies Night</h2>
                         <div class = "eventitem">
                             <div class="imgcon">
-                                
+                                <!--https://www.pexels.com/de-de/foto/frau-die-weinglas-selektive-fokusfotografie-halt-1850595/-->
                                 <img src="Medien/Bilder/woman.jpg" alt="Ladies Night Poster">
                             </div>
                             <div class="seitenelemente">
@@ -37,11 +37,11 @@
                         </div>
                     </div>
 
-                    <div> 
+                    <div>  <!--dient als Container für Einzelne Events mit Unterüberschriften-->
                         <h2>Anime Night</h2>
                         <div class = "eventitem">
                             <div class="imgcon">
-                            
+                                <!--https://unsplash.com/photos/3OdajQGd9sk-->
                                 <img src="Medien/Bilder/AnimeNight.jpg" alt="Anime Night Poster">
                             </div>
                             <div class="seitenelemente">
@@ -53,11 +53,11 @@
                         </div>
                     </div>
                 
-                    <div>
+                    <div> <!--dient als Container für Einzelne Events mit Unterüberschriften-->
                         <h2>Childhood Classics</h2>
                         <div class = "eventitem">
                             <div class="imgcon">
-                                
+                                <!--https://www.pexels.com/de-de/foto/pluto-kostum-3411134/-->
                                 <img src="Medien/Bilder/childhoodclassics.jpg" alt="Childhood Classics Poster">
                             </div>
                             <div class="seitenelemente">

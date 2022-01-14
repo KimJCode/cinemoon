@@ -6,9 +6,9 @@
         <meta name = "description" content = "cinemoon-Programmseite">
         <meta name = "keywords" content = "Kino, Filme, Entertainment, Freizeit, Programm">
         <meta name = "autor" content = "Daniele Amore, Philipp Le, Julius Steinbach">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel ="stylesheet" type = "text/css" href = "Medien/CSS/styleProgramm.css">
-        <link rel ="stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/styleProgramm.css">
+        <link rel = "stylesheet" type = "text/css" href = "Medien/CSS/style1.css">
         
         <link rel = "icon" href = "Medien/Bilder/icon.png">
     </head>
@@ -25,7 +25,7 @@
                <!-- James Bond-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                        <a href = "Filmseite1.php" >
+                        <a class="imgcon" href = "Filmseite1.php" >
                        <img src="Medien/Bilder/NoTimeToDie2.jpg" class="PBild" alt="No Time To Die" title="No Time To Die">
                         <!--https://www.fotonerd.it/wp-content/uploads/2020/10/fotonerd-no-time-to-die-trailer-2-3.jpg-->
                         </a>
@@ -50,7 +50,7 @@
                <!-- The Great Gatsby-->
                <div class="FilmBox">
                     <div style="width: 45%;" class="FilmBoxElement">
-                        <a href = "Filmseite2.php">
+                        <a class="imgcon" href = "Filmseite2.php">
                             <img src="Medien/Bilder/TGB.jpg" class="PBild" alt="The Great Gatsby" title="The Great Gatsby">
                             <!--https://img.reelgood.com/content/movie/11d3fb8b-afc8-484b-a399-18fb9bc25980/poster-780.jpg-->
                         </a>
@@ -78,7 +78,7 @@
                 <!-- Tenet -->
                 <div class="FilmBox">
                          <div style="width: 45%;" class="FilmBoxElement">
-                            <a href = "Filmseite3.php">
+                            <a class="imgcon" href = "Filmseite3.php">
                                 <img src="Medien/Bilder/Tenet.jpg" class="PBild" alt="Tenet" title="Tenet">
                                 <!--https://th.bing.com/th/id/OIP.UNMn9DNbPBFYo_M1W56cJQHaLH?pid=ImgDet&rs=1-->
                             </a>
@@ -102,7 +102,7 @@
                 <!-- Starwars-->
                 <div class="FilmBox">
                                 <div style="width: 45%;" class="FilmBoxElement">
-                                    <a href = "Filmseite4.php" >
+                                    <a class="imgcon" href = "Filmseite4.php" >
                                         <img src="Medien/Bilder/Starwars.jpg" class="PBild" alt="Starwars: Der Aufstieg Skywalkers" title="Starwars: Der Aufstieg Skywalkers">
                                         <!--https://image.tmdb.org/t/p/original/7uJYadq29ZfZojh8YycsvQbY9y5.jpg-->
                                      </a>
@@ -125,7 +125,7 @@
             <!-- Deadpool -->
             <div class="FilmBox">
                         <div style="width: 45%;" class="FilmBoxElement">
-                        <a href = "Filmseite5.php">
+                        <a class="imgcon" href = "Filmseite5.php">
                         <img src="Medien/Bilder/Deadpool.jpg" class="PBild" alt="Deadpool" title="Deadpool">
                             <!--https://th.bing.com/th/id/R.67e57b705ff2d2ee55acc8ae16829071?rik=HylFVmMMXvwk8A&riu=http%3a%2f%2fwww.bt66.org%2fUploads%2fvod%2fk%2fkHPKh1.jpg&ehk=nudPfUCgSbqe8zPgeNS%2bEbEKh8l8aKatgHBkrR%2b6%2bMg%3d&risl=&pid=ImgRaw&r=0-->
                         </a>
