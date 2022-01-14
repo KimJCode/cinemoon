@@ -41,10 +41,11 @@
                         </p>
                     </div>
                     <div class = "bildcontainer" id="vier"> 
-                        <img src ="Medien/Bilder/pexels-clem-onojeghuo-375885.jpg" alt="bild vom kino">
+                        <img src ="Medien/Bilder/team.jpg" alt="bild vom Mitarbeitern">
+                        <!--https://www.pexels.com/de-de/foto/silhouette-von-drei-personen-450062/-->
                     </div> <!--Mitarbeiter Ende-->
                     <div class = "bildcontainer" id = "fünf"> <!--Philosophie Start-->
-                            <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom kino">
+                            <img src ="Medien/Bilder/giammarco-zeH-ljawHtg-unsplash.jpg" alt="bild vom philosophie als Bespielbild">
                             <!-- https://unsplash.com/photos/zeH-ljawHtg--> 
                     </div>
                     <div class = "textcontainer" id="sechs"> 
