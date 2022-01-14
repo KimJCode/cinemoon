@@ -65,7 +65,7 @@
                     <div id= "acht">
                         <iframe class="map_canvas" src="https://www.openstreetmap.org/export/embed.html?bbox=6.6224613780579755%2C49.765276699520996%2C6.6347458953461835%2C49.77102823729162&amp;layer=mapnik&amp;marker=49.768152553711474%2C6.62860363670211"></iframe>
                     </div>
-               </div>><!--Adresse Ende-->
+               </div><!--Adresse Ende-->
             </article><!--CSS GRID CONTAINER Ende-->
             
         </main>
